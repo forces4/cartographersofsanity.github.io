@@ -1,22 +1,43 @@
+*{ /* sets 0 margin and 0 padding on everything */
+	margin: 0; 
+	padding: 0; 
+}
+
+
+
 /* === Base Reset === */
 body {
-    margin: 40px auto;
+    /*margin: 40px auto;
     max-width: 800px;
     padding: 0 20px;
+    font-family:arial, Times, sans-serif;*/
+
     font-family: 'Georgia', serif;
     background-color: #1a1a1a;
     color: #e0e0e0;
     line-height: 1.6;
+    height:100%;
+    font-size:100%;
+    text-align:center;
+    background-image:url('./media/space3.gif');
+    background-repeat:repeat;
 }
 
+
+
+
 /* === Headings === */
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6, blockquote,
+ form, label, ul, ol, dl, fieldset, address{
     text-align: center;
     color: #ffd966; /* Warm, torchlight gold */
     border-bottom: 1px solid #333;
-    padding-bottom: 0.3em;
+    /*padding-bottom: 0.3em;
     margin-top: 2em;
+    margin-bottom: .5em;*/
 }
+
+
 
 /* === Links === */
 a {
@@ -44,6 +65,11 @@ li {
     margin: 0.5em 0;
 }
 
+ol {
+    margin-left:2em;
+}
+
+
 /* === Images === */
 img {
     display: block;
@@ -66,60 +92,40 @@ img {
     font-weight: bold;
 }
 
+hr{
+    color:#ffd966; /* Warm, torchlight gold */
+    background-color:red;
+    height:2px;
+    text-align:center;
+}
+
+
+
+
 /* === Footer or nav (if needed later) === */
 footer {
     text-align: center;
     margin-top: 4em;
     font-size: 0.85em;
     color: #666;
-
-/* === ===================End of GPT css================================= === */
-
-
-
-/* === ===================Begin am incorporation css================================= === */
-*{ /* sets 0 margin and 0 padding on everything */
-	margin: 0; 
-	padding: 0; 
 }
 
-h1, h2, h3, h4, h5, h6, p, blockquote,
- form, label, ul, ol, dl, fieldset, address {
-    margin-bottom: .5em;
-}
-
-hr{
-color:red;
-background-color:red;
-height:2px;
-text-align:center;
-}
-
-ol {
-margin-left:2em;
-}
-
+/* === ===================
 td {
-padding:4px;
+    padding:4px;
 }
-
 table {
-height:auto;
-width:100%;
-text-align:center;
-vertical-align:middle;
-setTimeout(function(){display:block;}, 10);
+    height:auto;
+    width:100%;
+    text-align:center;
+    vertical-align:middle;
+    setTimeout(function(){display:block;}, 10);
 }
+End of GPT css================================= === */
 
 
-body {
-height:100%;
-font-size:100%;
-font-family:arial, Times, sans-serif;
-text-align:center;
-background-image:url('/media/space3.gif');
-background-repeat:repeat;
-}
+
+/* === ===================Begin am incorporation css================================= === *
 
 html {
 height:100%;
@@ -259,10 +265,6 @@ border-width: 1px;
 border-color:red;
 }
 
-
-
-
-
 .hlist, .hlist li{
 font-size:.9em;
 display:inline;
@@ -273,9 +275,6 @@ background-color:white;
 #topstuff {
 width:100%;
 }
-
-
-
 
 #menu {
 float:left;
@@ -306,10 +305,6 @@ margin-bottom:0px;
 display: block;
 }
 
-
-
-
-
 #menu li:hover, #links li:hover
 {
 margin-top: 1px;
@@ -323,8 +318,6 @@ display:block;
 line-height: 200%;
 }
 
-
-
 #wrapper{
 float: left;
 width: 100%;
@@ -335,21 +328,6 @@ text-align: center;
 float: left;
 width: 100%;
 }
-
-
-#content {
-margin: 0 12% 0 12%;
-/* Margins for content column. Should be #right width 0 #left width */
-float:left;
-background-image:url('./media/stars3old.jpg');
-background-attachment: fixed;
-background-repeat: no-repeat; 
-background-position: 50% 0%;
-font-size:.8em;
-background-color:white;
-}
-
-
 
 #rmenu {
 /*min-width:100px;*/
@@ -404,39 +382,13 @@ color: #2d2b2b;
 }
 
 .shadetabs li a.selected{ /*selected main tab style */
-position: relative;
-top: 1px;
-}
-
-.shadetabs li a.selected{ /*selected main tab style */
 background-image: url(./media/shadeactive.gif);
 border-bottom-color: white;
+position: relative;
+top: 1px;
 }
 
 .shadetabs li a.selected:hover{ /*selected main tab style */
 text-decoration: none;
 }
 
-.tabcontent{
-display:none;
-}
-
-@media print {
-.tabcontent {
-display:block !important;
-}
-}
-
-
-/*
-playback timings (ms):
-  captures_list: 1.755
-  exclusion.robots: 0.03
-  exclusion.robots.policy: 0.019
-  esindex: 0.015
-  cdx.remote: 73.794
-  LoadShardBlock: 198.166 (3)
-  PetaboxLoader3.datanode: 262.254 (5)
-  load_resource: 444.823 (2)
-  PetaboxLoader3.resolve: 289.492 (2)
-*/
