@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6, blockquote,
     text-align: center;
     color: #ffd966; /* Warm, torchlight gold */
     border-bottom: 1px solid #333;
+
     /*padding-bottom: 0.3em;
     margin-top: 2em;
     margin-bottom: .5em;*/
@@ -237,10 +238,11 @@ font-size:1.1em;
 
 .lable {
 display:block;
-width:75%;
+width:30%;
 margin:auto;
 text-align:center;
 font-size:1.25em;
+color: black;
 border-style: solid;
 border-width: 1px;
 border-color:black;
