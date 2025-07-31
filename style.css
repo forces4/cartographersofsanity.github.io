@@ -1,286 +1,51 @@
-*{ /* sets 0 margin and 0 padding on everything */
-	margin: 0; 
-	padding: 0; 
+
+/* Existing Welcome box assumed already in place */
+
+.directory {
+  background-color: #111;
+  color: #ccc;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  border-left: 4px solid #888;
+  border-radius: 10px;
+  font-family: 'Georgia', serif;
+  box-shadow: 0 0 8px rgba(136, 136, 136, 0.3);
 }
 
-
-
-/* === Base Reset === */
-body {
-    /*margin: 40px auto;
-    max-width: 800px;
-    padding: 0 20px;
-    font-family:arial, Times, sans-serif;*/
-
-    font-family: 'Georgia', serif;
-    background-color: #1a1a1a;
-    color: #e0e0e0;
-    line-height: 1.6;
-    height:100%;
-    font-size:100%;
-    text-align:center;
-    background-image:url('./media/space3.gif');
-    background-repeat:repeat;
+.directory h2 {
+  font-size: 1.8em;
+  color: #aad;
+  margin-bottom: 1rem;
 }
 
-
-
-
-/* === Headings === */
-h1, h2, h3, h4, h5, h6, blockquote,
- form, label, ul, ol, dl, fieldset, address{
-    text-align: center;
-    color: #ffd966; /* Warm, torchlight gold */
-    border-bottom: 1px solid #333;
-
-    /*padding-bottom: 0.3em;
-    margin-top: 2em;
-    margin-bottom: .5em;*/
+.directory ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
 }
 
-
-
-/* === Links === */
-a {
-    color: #99ccff;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
+.directory li {
+  margin: 0.5rem 0;
+  transition: transform 0.2s ease-in-out;
 }
 
-/* === Blockquotes === */
-blockquote {
-    border-left: 4px solid #444;
-    margin: 1.5em 0;
-    padding-left: 1em;
-    font-style: italic;
-    color: #ccc;
+.directory li:hover {
+  transform: translateX(5px);
 }
 
-/* === Lists === */
-ul {
-    padding-left: 1.2em;
-}
-li {
-    margin: 0.5em 0;
+.directory a {
+  text-decoration: none;
+  color: #87ceeb;
+  font-weight: bold;
 }
 
-ol {
-    margin-left:2em;
+.directory a:hover {
+  color: #ffa;
 }
 
-
-/* === Images === */
-img {
-    display: block;
-    margin: 1em auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
-
-/* === Custom Classes for Doctrine === */
-.anchor-title {
-    color: #ffcc66;
-    font-size: 1.6em;
-}
-.doctrine-body {
-    font-size: 1.05em;
-}
-.highlight-quote {
-    color: #ddccff;
-    font-weight: bold;
-}
-
-hr{
-    color:#ffd966; /* Warm, torchlight gold */
-    background-color:red;
-    height:2px;
-    text-align:center;
-}
-
-
-
-
-/* === Footer or nav (if needed later) === */
 footer {
-    text-align: center;
-    margin-top: 4em;
-    font-size: 0.85em;
-    color: #666;
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+  padding-top: 2rem;
 }
-
-/* === ===================
-td {
-    padding:4px;
-}
-table {
-    height:auto;
-    width:100%;
-    text-align:center;
-    vertical-align:middle;
-    setTimeout(function(){display:block;}, 10);
-}
-End of GPT css================================= === */
-
-
-
-/* === ===================Begin am incorporation css================================= === *
-
-html {
-height:100%;
-}
-
-
-#current {
-display:block;
-position: relative;
-font-weight:bold;
-font-size:1.2em;
-font-style:italic;
-background-color:#FFD700;
-background-image:none;
-}
-
-.button {
-background-color:white;
-text-align:left;
-position: relative;
-display: block; 
-border-style: solid;
-border-width: 2px;
-padding: 10px 5px;
-border-color: #aaa #000 #000 #aaa;
-
-}
-
-.button:hover {
-margin-top: 2px;
-margin-left: 2px;
-font-weight:bold;
-border-color: #000 #aaa #aaa #000;
-}
-
-.box a:hover, #links a:hover, .lable a:hover{
-font-weight:bold;
-}
-
-
-#rmenu a img:hover{
-margin-top: 1px;
-margin-left: 3px;
-margin-bottom:-1px;
-border-color: #000 #aaa #aaa #000;
-}  /* mouse over link */
-
-
-
-.box a img:hover{
-display:block;
-position:relative;
-margin-top: 1px;
-margin-left: 1px;
-border-color: #000 #aaa #aaa #000;
-}  /* mouse over link */
-
-td a img:hover{
-display:block;
-position:relative;
-margin-top: 1px;
-margin-left: 1px;
-margin-bottom: 2px;
-margin-right: -1px;
-border-color: #000 #aaa #aaa #000;
-}  /* mouse over link */
-
-
-
-a img{
-border: 1px solid;
-border-color: #aaa #000 #000 #aaa;
-}
-
-.imghover img{
-border: 1px solid;
-border-color: #aaa #000 #000 #aaa;
-margin:5px;
-}
-
-.imghover img:hover{
-border-color: #000 #aaa #aaa #000;
-margin-left:6px;
-margin-top:6px;
-margin-right:4px;
-margin-bottom:4px;
-}
-
-.grad {
-background-image:url('./media/grad.jpg');
-background-position:left center;
-background-repeat:repeat-x;
-}
-
-
-.box {
-text-align: left;
-border-width: 1px;
-border-style: solid;
-border-color: black;
-background-color:white;
-display:inline-block;
-position:relative;
-margin: 10px 30px;
-padding:10px 5px;
-font-size:1.1em;
-
-}
-
-.lable {
-display:block;
-width:30%;
-margin:auto;
-text-align:center;
-font-size:1.25em;
-color: black;
-border-style: solid;
-border-width: 1px;
-border-color:black;
-background-image:url('./media/grad.jpg');
-background-position:left center;
-background-repeat:repeat-x;
-background-color:white;
-padding:5px;
-}
-
-.center{
-display:block;
-text-align:center;
-margin:auto;
-}
-
-.center2{
-text-align:center;
-margin:auto;
-border-style: solid;
-border-width: 1px;
-border-color:red;
-}
-
-.hlist, .hlist li{
-font-size:.9em;
-display:inline;
-list-style-type: none;
-background-color:white;
-}
-
-#topstuff {
-width:100%;
-}
-
-#wrapper{
-float: left;
-width: 100%;
-text-align: center;
-}
-
