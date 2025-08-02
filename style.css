@@ -1,3 +1,361 @@
+*{ /* sets 0 margin and 0 padding on everything */
+	margin: 0; 
+	padding: 0; 
+	/*box-sizing: border-box;*/
+}
+
+html {
+height:100%;
+}
+
+/* === Base Reset === */
+body {
+    /*margin: 40px auto;
+    max-width: 800px;
+    font-family:arial, Times, sans-serif;*/
+    font-family: 'Georgia', serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    line-height: 1.6;
+    height:100%;
+    font-size:100%;
+    text-align:center;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/* === Headings === */
+h1, h2, h3, h4, h5, h6, blockquote,
+ form, label, ul, ol, dl, fieldset, address{
+    text-align: center;
+    color: #ffd966; /* Warm, torchlight gold */
+    border-bottom: 1px solid #333;
+
+    /*padding-bottom: 0.3em;
+    margin-top: 2em;
+    margin-bottom: .5em;*/
+}
+ 
+/* === Blockquotes === */
+blockquote {
+    border-left: 4px solid #444;
+    margin: 1.5em 0;
+    padding-left: 1em;
+    font-style: italic;
+    color: #ccc;
+}
+
+/* === Lists === */
+ul {
+    padding-left: 1.2em;
+}
+li {
+    margin: 0.5em 0;
+}
+
+ol {
+    margin-left:2em;
+}
+
+/* === Images === */
+img {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+hr{
+    /*color:#ffd966;  Warm, torchlight gold */
+    background-color:red;
+    height:2px;
+    text-align:center;
+}
+
+/* === Footer or nav (if needed later)1stgpt ===
+footer {
+    text-align: center;
+    margin-top: 4em;
+    font-size: 0.85em;
+    color: #666;
+	padding-top: 2em;
+}
+ */
+ 
+ /*2nd gpt footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+    padding: 2em 0;
+    border-top: 1px solid #333;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+
+td a img:hover{
+display:block;
+position:relative;
+margin-top: 1px;
+margin-left: 1px;
+margin-bottom: 2px;
+margin-right: -1px;
+border-color: #000 #aaa #aaa #000;
+}  /* mouse over link */
+
+a img{
+border: 1px solid;
+border-color: #aaa #000 #000 #aaa;
+}
+
+
+#topstuff {
+width:100%;
+}
+
+#wrapper{
+float: left;
+width: 100%;
+text-align: center;
+}
+
+#rmenu a img:hover{
+margin-top: 1px;
+margin-left: 3px;
+margin-bottom:-1px;
+border-color: #000 #aaa #aaa #000;
+}  /* mouse over link */
+
+#menu {
+float:left;
+min-width:100px;
+font-weight:bold;
+width:12%;
+/*margin-left: -100%;*/
+text-align: left;
+font-size:.9em;
+z-index:2;
+display:inline-block;
+}
+
+#menu ul, #links ul {
+list-style: none;
+margin-bottom:0px;
+}
+
+#menu li, #links li {
+display: block;
+padding: 10px 5px;
+border: 1px solid;
+border-color: #aaa #000 #000 #aaa;
+margin-bottom:0px;
+}
+
+#menu li a, #links li a{
+display: block;
+}
+
+#menu li:hover, #links li:hover
+{
+margin-top: 1px;
+margin-left: 1px;
+margin-bottom:0px;
+border-color: #000 #aaa #aaa #000;
+} 
+
+#menu li a:hover {
+    background-color: #222;
+    color: #ffd966;
+}
+
+#menu a span, #links a span {
+display:block;
+line-height: 200%;
+}
+
+/*current is for menu hover i think*/
+#current {
+display:block;
+position: relative;
+font-weight:bold;
+font-size:1.2em;
+font-style:italic;
+background-color:#FFD700;
+background-image:none;
+/*test this, from gpt so i learn
+ background-color: #ffd966;
+    color: black;
+    font-weight: bold;
+*/
+}
+
+
+/* === Custom Classes === */
+
+.row-flex {
+  display: flex;
+}
+.left   { flex: 1; }
+.middle { flex: 2; }
+.right  { flex: 1; }
+
+
+.inside {
+border-style: solid;
+border-width: 1px;
+border-color: black;
+}
+
+.button {
+background-color:white;
+text-align:left;
+position: relative;
+display: block; 
+border-style: solid;
+border-width: 2px;
+padding: 10px 5px;
+border-color: #aaa #000 #000 #aaa;
+}
+
+.button:hover {
+margin-top: 2px;
+margin-left: 2px;
+font-weight:bold;
+border-color: #000 #aaa #aaa #000;
+}
+
+.imghover img{
+border: 1px solid;
+border-color: #aaa #000 #000 #aaa;
+margin:5px;
+}
+
+.imghover img:hover{
+border-color: #000 #aaa #aaa #000;
+margin-left:6px;
+margin-top:6px;
+margin-right:4px;
+margin-bottom:4px;
+}
+
+.grad {
+background-image:url('./media/grad.jpg');
+background-position:left center;
+background-repeat:repeat-x;
+}
+
+.box {
+text-align: left;
+border-width: 1px;
+border-style: solid;
+color: black;
+border-color: black;
+background-color:white;
+display:inline-block;
+position:relative;
+/*margin: 10px 30px;*/
+padding:10px 30px;
+font-size:1.1em;
+box-shadow: 0 0 8px rgba(255,255,255,0.1);
+border-radius: 6px;
+}
+
+.box a:hover, #links a:hover, .lable a:hover{
+font-weight:bold;
+background-color: #ddd;
+}
+
+.box a img:hover{
+display:block;
+position:relative;
+margin-top: 1px;
+margin-left: 1px;
+border-color: #000 #aaa #aaa #000;
+}  /* mouse over link */
+
+.lable {
+/*display:block;*/
+text-align:center;
+font-size:1.25em;
+color: black;
+border-style: solid;
+border-width: 1px;
+border-color:black;
+background-image:url('./media/grad.jpg');
+background-position:left center;
+background-repeat:repeat-x;
+background-color:white;
+padding:5px;
+}
+
+.center{
+display:block;
+text-align:center;
+margin:auto;
+}
+
+.center2{
+text-align:center;
+margin:auto;
+border-style: solid;
+border-width: 1px;
+border-color:red;
+}
+
+
+/*--------Layout stuff-------------*/
+.column {
+  float: left;
+}
+/* Left and right column */
+.column.side {
+  width: 12%;
+}
+/* Middle column */
+.column.middle {
+  width: 75%;
+}
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*--------END Layout stuff-------------*/
+
+
+.hlist, .hlist li{
+font-size:.9em;
+display:inline;
+list-style-type: none;
+background-color:white;
+}
+
+
+/* === Custom Classes for Doctrine === */
+.anchor-title {
+    color: #ffcc66;
+    font-size: 1.6em;
+}
+.doctrine-body {
+    font-size: 1.05em;
+}
+.highlight-quote {
+    color: #ddccff;
+    font-weight: bold;
+}
 
 /* Existing Welcome box assumed already in place */
 
@@ -42,10 +400,18 @@
 .directory a:hover {
   color: #ffa;
 }
-
-footer {
-  text-align: center;
-  color: #666;
-  font-size: 0.9em;
-  padding-top: 2rem;
+/* === ===================unused table style
+td {
+    padding:4px;
 }
+table {
+    height:auto;
+    width:100%;
+    text-align:center;
+    vertical-align:middle;
+    setTimeout(function(){display:block;}, 10);
+}
+
+
+
+End of unused css================================= === */
