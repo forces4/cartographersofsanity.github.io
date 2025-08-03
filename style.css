@@ -1,7 +1,7 @@
 *{ /* sets 0 margin and 0 padding on everything */
 	margin: 0; 
 	padding: 0; 
-	/*box-sizing: border-box;*/
+	box-sizing: border-box;
 }
 
 html {
@@ -148,6 +148,9 @@ text-align: left;
 font-size:.9em;
 z-index:2;
 display:inline-block;
+border-style: solid;
+border-width: 1px;
+border-color: black;
 }
 
 #menu ul, #links ul {
@@ -185,7 +188,7 @@ display:block;
 line-height: 200%;
 }
 
-/*current is for menu hover i think*/
+/*current is for indicating page your on in menue*/
 #current {
 display:block;
 position: relative;
@@ -211,12 +214,6 @@ background-image:none;
 .middle { flex: 2; }
 .right  { flex: 1; }
 
-
-.inside {
-border-style: solid;
-border-width: 1px;
-border-color: black;
-}
 
 .button {
 background-color:white;
@@ -325,7 +322,11 @@ border-color:red;
 }
 /* Middle column */
 .column.middle {
-  width: 75%;
+width: 70%;
+margin-top: 1px;
+margin-left: 2%;
+margin-bottom: 1px;
+margin-right: 2%;
 }
 /* Clear floats after the columns */
 .row::after {
