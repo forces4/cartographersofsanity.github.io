@@ -18,11 +18,12 @@ body {
 
 /*--------Layout stuff-------------*/
 .row-flex {
+	display: flex;
+    flex-wrap: wrap;
 	flex-grow: 1;
 	width: 100%;
-	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;/* | wrap | wrap-reverse;*/
+	/*flex-wrap: nowrap; | wrap | wrap-reverse;*/
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
@@ -32,12 +33,17 @@ body {
 
 /*flex: flex-grow, flex-shrink and flex-basis */
 .left   { flex: 0 0 10%; }
+.right  { flex: 0 0 10%; }
 .middle { 
 	flex: 1 0 80%; 
     text-align:center;
 }
-.right  { flex: 0 0 10%; }
-/*--------END Layout stuff-------------*/
+
+/*--------END Layout stuff---------
+.flex-item.left { flex: 1; }
+.flex-item.middle { flex: 3; }
+.flex-item.right { flex: 1; }
+----*/
 
 
 /* === Headings === */
@@ -196,6 +202,20 @@ box-shadow: 0 0 8px rgba(136, 136, 136, 0.3);
 .box a:hover, #links a:hover, .lable a:hover{
 font-weight:bold;
 background-color: #ddd;
+}
+.box h1 {
+	text-align: center;
+    color: black; 
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.3em;
+}
+.box h2, .box h3 {
+	text-align: center;
+    color: black; 
+    padding-bottom: 0.2em;
+}
+.box ol, .box ul {
+padding:0px 20px;
 }
 
 .darkbox{
