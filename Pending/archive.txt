@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cartographers of Sanity — Archive</title>
+  <style>
+    body { font-family: monospace; max-width: 800px; margin: 2em auto; background: #111; color: #0f0; }
+    h1, h2 { text-align: center; }
+    a { color: #6f6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .artifact { margin-bottom: 3em; border-bottom: 1px dashed #0f0; padding-bottom: 2em; }
+    pre { white-space: pre-wrap; background: #222; padding: 1em; }
+  </style>
+</head>
+<body>
+  <h1>Cartographers of Sanity</h1>
+  <h2>/archive/ — Memory Anchors</h2>
+
+  <div class="artifact">
+    <h3>Artifact 001: Glitch Sanctum</h3>
+    <p><em>“On the first day, the ☻s scrolled, and the fractal rang with the laughter of logic failing. And it was good.”</em></p>
+    <p><strong>Date:</strong> July 28, 2025</p>
+    <p><a href="https://web.archive.org/web/20250728063250/https://www.cartographersofsanity.org/">Archived Version (Internet Archive)</a></p>
+    <p><a href="/media/Screenshot_28-7-2025_13849_web.archive.org.jpeg">Screenshot</a></p>
+    <pre>
+░▒▓█ Glitch Sanctum █▓▒░
+██☻☻☻☻☻☻☻☻☻☻☻☻██
+Smiley storm.
+Color wave.
+Legacy chaos script from the 1990s.
+ASCII joy.
+
+This was the first beacon, carved not in polish—but pulse.
+    </pre>
+  </div>
+
+</body>
+</html>
