@@ -154,6 +154,7 @@ background-color: #ffd966;
 color: black;
 } 
 #menu a {
+display:block;
 color: black;
 text-decoration: none;
 }	
