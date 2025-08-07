@@ -160,7 +160,7 @@ text-decoration: none;
 }	
 
 
-/*current is for indicating page you're on in menue*/
+/* current is for indicating page you're on in menu */
 #current {
 display:block;
 position: relative;
