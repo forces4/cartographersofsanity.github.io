@@ -1,13 +1,14 @@
-html {height:100%;}
+html {height: 100vh;}
 
 *{ margin: 0; padding: 0;}
 
 body {
+	font-size: 3vw;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 	box-sizing: border-box;
-	width: 100%;
+	width: 100vw;
 	background-color: #1a1a1a;
     color: black;
     text-align:center;
@@ -18,32 +19,20 @@ body {
 
 /*--------Layout stuff-------------*/
 .row-flex {
-	display: flex;
-    flex-wrap: wrap;
-	flex-grow: 1;
-	width: 100%;
-	flex-direction: row;
 	/*flex-wrap: nowrap; | wrap | wrap-reverse;*/
+	display: flex;
+    flex-wrap: nowrap;
+	flex-grow: 1;
+	flex-direction: row;
 	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
-	gap: 0px 0px;  /*row-gap column gap*/
+	gap: 5vw 5vw;  /*row-gap column gap*/
 	text-align:center;
 }
 
 /*flex: flex-grow, flex-shrink and flex-basis */
-.left   { flex: 0 0 10%; }
-.right  { flex: 0 0 10%; }
-.middle { 
-	flex: 1 0 80%; 
-    text-align:center;
-}
-
-/*--------END Layout stuff---------
-.flex-item.left { flex: 1; }
-.flex-item.middle { flex: 3; }
-.flex-item.right { flex: 1; }
-----*/
+.left   { flex: 1; }
+.right  { flex: 1; }
+.middle { flex: 4; }
 
 
 /* === Headings === */
@@ -64,22 +53,22 @@ hr{
 }
 
 header {
-	width: 100%;
+	width: 100vw;
 	text-align: center;
-	border-bottom: 1px solid #333;
-	background-image:url('./media/head.jpg');
-	background-position:left center;
-	padding: 1.6em 0;
-	font-size: 1em;
+	background-image:url("./media/head.jpg");
+	background-position:center center;
+	padding: 2vh 1vw;
+	font-size: 2vw;
 	font-weight:bold;
+	margin:auto;
 }
  /* 
  background-color: #1a1a1a;
  */
 footer {
-	width: 100%;
+	width: 100vw;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 2vw;
     color: #888;
     border-top: 1px solid #333;
 	background-color:white;
@@ -94,18 +83,22 @@ display: inline;
 }	
 
 a img{
-border: 1px solid;
+border: 2px solid;
 border-color: #aaa #000 #000 #aaa;
 }
 
+body a:hover{
+font-weight:bold;
+background-color: #ddd;
+}
 
 /*--------Named items/sections---------*/
 #rmenu {
 display:block;	
-width:12%;
+width:10vw;
 z-index:2;	
 color: white;
-font-size: 1rem;
+font-size: 2vw;
 text-align: center;
 } 
 #rmenu a img:hover{
@@ -113,34 +106,24 @@ border: 2px solid;
 border-color: #000 #aaa #aaa #000;
 }  /* mouse over link */
 
+
 #menu {
-width:12%;
-z-index:2;
 color: black;
-font-size: 1.1rem;
 text-align: center;
-/*display:block;
-margin-top: 1px;
-margin-left: 1px;
-margin-right: 1px;
-min-width:12%;
-margin-bottom: 1px;
-margin-left: -100%;*/
 }
 #menu ul, #links ul {
 list-style: none;
-line-height: 200%;
-background-color: white;
 }
-#menu li, #links li {
+#menu li, #links li {	
 display: block;
-padding:5px 5px;
-font-size:1.1rem;
+padding:1vw 1vw;
 font-weight:bold;
-/*margin-top: 1px;
-margin-left: 1px;
-margin-bottom:1px;*/
+font-size:  2.5vw;
+margin-top: 2vw;
+margin-left: 2vw;
+margin-bottom: 2vw;
 color: black;
+background-color: white;
 border: 2px solid;
 border-color: #aaa #000 #000 #aaa;
 }
@@ -161,25 +144,20 @@ text-decoration: none;
 
 
 /* current is for indicating page you're on in menu */
-#current {
-display:block;
-position: relative;
-font-weight:bold;
-font-size:1.2em;
+.current {
 font-style:italic;
-background-image:none;
 background-color: #ffd966;
-color: black;
-border: 2px solid;
+border: 3px solid;
 border-color: #000 #aaa #aaa #000;
 }
 
 /* === Custom Classes === */
 
 .grad {
-background-image:url('./media/grad.jpg');
+background-image:url("./media/grad.jpg");
 background-position:left center;
 background-repeat:repeat-x;
+background-color: white;
 }
 
 .box {
@@ -187,11 +165,11 @@ display:inline-block;
 position: relative;
 text-align: left;
 color: black;
-font-size:1.1em;
-font-family: 'Georgia', serif;
-max-width: 1000px;
+font-size: clamp(2vw, 2vw, 6vw);
+font-family: Georgia, serif;
+width: 60vw;
 padding:10px 20px;
-margin: 2rem auto;
+margin: auto;
 border-width: 2px;
 border-style: solid;
 border-color: black;
@@ -200,10 +178,8 @@ border-left: 4px solid #888;
 border-radius: 10px;
 box-shadow: 0 0 8px rgba(136, 136, 136, 0.3);
 }
-.box a:hover, #links a:hover, .lable a:hover{
-font-weight:bold;
-background-color: #ddd;
-}
+
+
 .box h1 {
 	text-align: center;
     color: black; 
@@ -223,25 +199,17 @@ padding:0px 20px;
 display:inline-block;
 position:relative;	
 text-align: center;
-padding:0px 20px;
-border-width: 2px;
-border-style: solid;
-border-color: #1a1a1a;
+padding:1vh 4vw;
 background-color:black;
 color: white;
 font-size:1.1em;
-box-shadow: 0 0 8px rgba(136, 136, 136, 0.3);
-border-radius: 10px;	
-/*	
-box-shadow: 0 0 8px rgba(255,255,255,0.1);
-background-color: #1a1a1a; ---dark grey
-color: #e0e0e0;----grey
-*/
+border-radius: 2vw;	
 }
+
 .lable {
 /*display:block;*/
-text-align:center;
-font-size:1.25rem;
+text-align: center;
+font-size: 1.25rem;
 color: black;
 border-style: solid;
 border-width: 1px;
@@ -258,7 +226,7 @@ text-align:center;
 margin:auto;
 }
 
-/* Existing Welcome box assumed already in place */
+
 /* === Custom Classes for Doctrine === */
 .anchor-title {
     color: #ffcc66;
@@ -306,5 +274,6 @@ margin:auto;
 }
 .directory a:hover {
   color: #ffa;
+  background-color: #111;
 }
 
