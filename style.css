@@ -21,11 +21,11 @@ body {
 }
 
 /*flex: flex-grow, flex-shrink and flex-basis */
-.left   { flex: 1;
-max-width: 10vw;
+.left   { flex: 0;
+width: calc(120px + 5vw);
 }
-.right  { flex: 1;}
-.middle { flex: 5;
+.right  { flex: 0;}
+.middle { flex: 4;
 margin: auto;
 }
 
@@ -87,18 +87,17 @@ border-color: #aaa #000 #000 #aaa;
 
 #menu {
 color: black;
-font-size: 1.1rem;
+font-size: calc(15px + .3vw);
 text-align: center;
+font-weight: bold;
 }
 #menu ul {
 list-style: none;
 background-color: #1a1a1a;
-font-size: 1.1rem;
-font-weight: bold;
 }
 #menu li {
 display: block;
-padding: 10px 10px;
+
 margin-bottom: 5px;
 border: 4px outset;
 border-color: #aaa #000 #000 #aaa;
@@ -106,12 +105,12 @@ background-color: white;
 }
 
 #menu li:hover {
+border: 4px inset;	
 border-color: #000 #aaa #aaa #000;
 font-style:italic;
 background-image:none;
 background-color: #ffd966;
 } 
-
 #menu a {
 display:block;
 color: black;
@@ -120,6 +119,13 @@ text-decoration: none;
 
 /* current is for indicating page you're on in menu */
 li.current{
+border-color: #000 #aaa #aaa #000;
+font-style:italic;
+background-image:none;
+background-color: #ffd966;
+}
+
+.current{
 border-color: #000 #aaa #aaa #000;
 font-style:italic;
 background-image:none;
@@ -145,8 +151,6 @@ background-image:url('./media/grad.jpg');
 background-position:left center;
 background-repeat:repeat-x;
 }
-
-
 
 
 .box {
