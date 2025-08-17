@@ -1,15 +1,10 @@
-html {height:100%;}
+html {height:100vh; width: 100%;}
 
-*{ margin: 0; padding: 0;}
+*{ margin: 0; padding: 0; box-sizing: border-box;}
 
 body {
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
-	box-sizing: border-box;
-	width: 100%;
 	background-color: #1a1a1a;
-    color: black;
     text-align:center;
 	font-family:arial, Times, sans-serif;
 	/*font-family: 'Georgia', serif;
@@ -19,31 +14,20 @@ body {
 /*--------Layout stuff-------------*/
 .row-flex {
 	display: flex;
-    flex-wrap: wrap;
-	flex-grow: 1;
-	width: 100%;
-	flex-direction: row;
-	/*flex-wrap: nowrap; | wrap | wrap-reverse;*/
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
-	gap: 0px 0px;  /*row-gap column gap*/
-	text-align:center;
+	justify-content: center;
+	gap: 0vh 5vw;  /*row-gap column gap*/
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
 
 /*flex: flex-grow, flex-shrink and flex-basis */
-.left   { flex: 0 0 10%; }
-.right  { flex: 0 0 10%; }
-.middle { 
-	flex: 1 0 80%; 
-    text-align:center;
+.left   { flex: 1;
+max-width: 10vw;
 }
-
-/*--------END Layout stuff---------
-.flex-item.left { flex: 1; }
-.flex-item.middle { flex: 3; }
-.flex-item.right { flex: 1; }
-----*/
+.right  { flex: 1;}
+.middle { flex: 5;
+margin: auto;
+}
 
 
 /* === Headings === */
@@ -66,12 +50,12 @@ hr{
 header {
 	width: 100%;
 	text-align: center;
-	border-bottom: 1px solid #333;
 	background-image:url('./media/head.jpg');
-	background-position:left center;
-	padding: 1.6em 0;
+	background-position:center center;
+	padding: 2vh;
 	font-size: 1em;
 	font-weight:bold;
+	margin: auto;
 }
  /* 
  background-color: #1a1a1a;
@@ -100,10 +84,51 @@ border-color: #aaa #000 #000 #aaa;
 
 
 /*--------Named items/sections---------*/
+
+#menu {
+color: black;
+font-size: 1.1rem;
+text-align: center;
+}
+#menu ul {
+list-style: none;
+background-color: #1a1a1a;
+font-size: 1.1rem;
+font-weight: bold;
+}
+#menu li {
+display: block;
+padding: 10px 10px;
+margin-bottom: 5px;
+border: 4px outset;
+border-color: #aaa #000 #000 #aaa;
+background-color: white;
+}
+
+#menu li:hover {
+border-color: #000 #aaa #aaa #000;
+font-style:italic;
+background-image:none;
+background-color: #ffd966;
+} 
+
+#menu a {
+display:block;
+color: black;
+text-decoration: none;
+}	
+
+/* current is for indicating page you're on in menu */
+li.current{
+border-color: #000 #aaa #aaa #000;
+font-style:italic;
+background-image:none;
+background-color: #ffd966;
+}
+
+
 #rmenu {
 display:block;	
-width:12%;
-z-index:2;	
 color: white;
 font-size: 1rem;
 text-align: center;
@@ -113,74 +138,16 @@ border: 2px solid;
 border-color: #000 #aaa #aaa #000;
 }  /* mouse over link */
 
-#menu {
-width:12%;
-z-index:2;
-color: black;
-font-size: 1.1rem;
-text-align: center;
-/*display:block;
-margin-top: 1px;
-margin-left: 1px;
-margin-right: 1px;
-min-width:12%;
-margin-bottom: 1px;
-margin-left: -100%;*/
-}
-#menu ul, #links ul {
-list-style: none;
-line-height: 200%;
-background-color: white;
-}
-#menu li, #links li {
-display: block;
-padding:5px 5px;
-font-size:1.1rem;
-font-weight:bold;
-/*margin-top: 1px;
-margin-left: 1px;
-margin-bottom:1px;*/
-color: black;
-border: 2px solid;
-border-color: #aaa #000 #000 #aaa;
-}
-
-#menu li:hover, #links li:hover
-{
-border-color: #000 #aaa #aaa #000;
-font-style:italic;
-background-image:none;
-background-color: #ffd966;
-color: black;
-} 
-#menu a {
-display:block;
-color: black;
-text-decoration: none;
-}	
-
-
-/* current is for indicating page you're on in menu */
-#current {
-display:block;
-position: relative;
-font-weight:bold;
-font-size:1.2em;
-font-style:italic;
-background-image:none;
-background-color: #ffd966;
-color: black;
-border: 2px solid;
-border-color: #000 #aaa #aaa #000;
-}
 
 /* === Custom Classes === */
-
 .grad {
 background-image:url('./media/grad.jpg');
 background-position:left center;
 background-repeat:repeat-x;
 }
+
+
+
 
 .box {
 display:inline-block;
@@ -188,7 +155,7 @@ position: relative;
 text-align: left;
 color: black;
 font-size:1.1em;
-font-family: 'Georgia', serif;
+font-family: Georgia, serif;
 max-width: 1000px;
 padding:10px 20px;
 margin: 2rem auto;
@@ -200,7 +167,7 @@ border-left: 4px solid #888;
 border-radius: 10px;
 box-shadow: 0 0 8px rgba(136, 136, 136, 0.3);
 }
-.box a:hover, #links a:hover, .lable a:hover{
+.box a:hover, .lable a:hover{
 font-weight:bold;
 background-color: #ddd;
 }
@@ -221,23 +188,16 @@ padding:0px 20px;
 
 .darkbox{
 display:inline-block;
-position:relative;	
 text-align: center;
-padding:0px 20px;
-border-width: 2px;
-border-style: solid;
-border-color: #1a1a1a;
+padding:10px 20px;
+line-height: .9;
 background-color:black;
 color: white;
 font-size:1.1em;
-box-shadow: 0 0 8px rgba(136, 136, 136, 0.3);
-border-radius: 10px;	
-/*	
-box-shadow: 0 0 8px rgba(255,255,255,0.1);
-background-color: #1a1a1a; ---dark grey
-color: #e0e0e0;----grey
-*/
+border-radius: 15px;	
+margin: 5px;
 }
+
 .lable {
 /*display:block;*/
 text-align:center;
@@ -252,13 +212,14 @@ background-repeat:repeat-x;
 background-color:white;
 padding:5px;
 }
+
 .center{
 display:block;
 text-align:center;
 margin:auto;
 }
 
-/* Existing Welcome box assumed already in place */
+
 /* === Custom Classes for Doctrine === */
 .anchor-title {
     color: #ffcc66;
