@@ -25,14 +25,15 @@ body {
 /*flex: flex-grow, flex-shrink and flex-basis */
 .left   { flex: 1;}
 .right  { flex: 1;}
-.middle { flex: 5;
+.middle { flex: 5;}
 
+.center{
+text-align: center;
 }
 
 
-/* === Headings === */
-h1, h2, h3, h4, h5, h6, blockquote,
- form, label, dl, fieldset, address{
+/* === --------------Headings---------- === */
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #ffd966; /* Warm, torchlight gold 
     border-bottom: 1px solid #333;*/
@@ -49,23 +50,20 @@ hr{
 
 header {
 	width: 100%;
+	padding: 2vh;	
+	margin: auto;
 	text-align: center;
-	background-image:url('./media/head.jpg');
-	background-position:center center;
-	padding: 2vh;
 	font-size: calc(12px + .3vw);
 	font-weight:bold;
-	margin: auto;
+	background-image:url('./media/head.jpg');
+	background-position:center center;
 }
- /* 
- background-color: #1a1a1a;
- */
+
 footer {
 	width: 100%;
     text-align: center;
     font-size: 0.9em;
     color: #888;
-    border-top: 1px solid #333;
 	background-color:white;
 }	
 footer ul {
@@ -82,7 +80,7 @@ border-color: #aaa #000 #000 #aaa;
 }
 
 
-
+/* === Custom Classes === */
 
 .menu {
 color: black;
@@ -96,14 +94,15 @@ background-color: #1a1a1a;
 }
 .menu li {
 display: block;
-margin-bottom: 5px;
-border: 4px outset;
+margin-bottom: 3vh;
+line-height: 1.6;
+border: 3px outset;
 border-color: #aaa #000 #000 #aaa;
 background-color: white;
 }
 
 .menu li:hover {
-border: 4px inset;	
+border: 3px inset;	
 border-color: #000 #aaa #aaa #000;
 font-style:italic;
 background-image:none;
@@ -117,15 +116,7 @@ text-decoration: none;
 
 /* current is for indicating page you're on in menu */
 .menu li.current{
-border:4px inset;	
-border-color: #000 #aaa #aaa #000;
-font-style:italic;
-background-image:none;
-background-color: #ffd966;
-}
-
-.menu.current{
-border: 4px inset;
+border:3px inset;	
 border-color: #000 #aaa #aaa #000;
 font-style:italic;
 background-image:none;
@@ -150,7 +141,7 @@ border-color: #000 #aaa #aaa #000;
 }  /* mouse over link */
 
 
-/* === Custom Classes === */
+
 .grad {
 background-image:url('./media/grad.jpg');
 background-position:left center;
@@ -159,24 +150,22 @@ background-repeat:repeat-x;
 
 
 .box {
-display:inline-block;
 position: relative;
-text-align: left;
-color: black;
-font-size:calc(12px + .5vw);
-font-family: Georgia, serif;
 max-width: 1000px;
 padding:10px 20px;
 margin: 2rem auto;
+color: black;
+background-color:white;
+text-align: left;
+font-size:calc(12px + .5vw);
+font-family: Georgia, serif;
 border-width: 2px;
 border-style: solid;
 border-color: black;
-background-color:white;
 border-left: 4px solid #888;
 border-radius: 10px;
-box-shadow: 0 0 8px rgba(136, 136, 136, 0.3);
 }
-.box a:hover, .lable a:hover{
+.box a:hover, .label a:hover{
 font-weight:bold;
 background-color: #ddd;
 }
@@ -198,35 +187,33 @@ padding:0px 20px;
 .darkbox{
 display:inline-block;
 text-align: center;
+margin: 5px;
 padding:10px 20px;
 line-height: .9;
 background-color:black;
 color: white;
 font-size:calc(10px + .5vw);
 border-radius: 15px;	
-margin: 5px;
 }
 
-.lable {
-/*display:block;*/
+.label {
+display:inline-block;
+/*margin: auto;*/
+padding: 5px;
 text-align: center;
 font-size: calc(10px + .3vw);
+font-weight: bold;
 color: black;
-border-style: solid;
+background-color: white;
+background-image: url('./media/grad.jpg');
+background-position: left center;
+background-repeat: repeat-x;
 border-width: 1px;
-border-color:black;
-background-image:url('./media/grad.jpg');
-background-position:left center;
-background-repeat:repeat-x;
-background-color:white;
-padding:5px;
+border-color: black;
+border-style: solid;
 }
 
-.center{
-display:block;
-text-align:center;
-margin:auto;
-}
+
 
 
 /* === Custom Classes for Doctrine === */
