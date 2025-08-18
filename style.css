@@ -7,6 +7,7 @@ body {
 	background-color: #1a1a1a;
     text-align:center;
 	font-family:arial, Times, sans-serif;
+	font-size:calc(10px + .5vw);
 	/*font-family: 'Georgia', serif;
 	line-height: 1.6;*/
 }
@@ -14,19 +15,18 @@ body {
 /*--------Layout stuff-------------*/
 .row-flex {
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 	gap: 0vh 5vw;  /*row-gap column gap*/
 	padding-top: 40px;
 	padding-bottom: 20px;
 }
 
 /*flex: flex-grow, flex-shrink and flex-basis */
-.left   { flex: 0;
-width: calc(120px + 5vw);
-}
-.right  { flex: 0;}
-.middle { flex: 4;
-margin: auto;
+.left   { flex: 1;}
+.right  { flex: 1;}
+.middle { flex: 5;
+
 }
 
 
@@ -53,7 +53,7 @@ header {
 	background-image:url('./media/head.jpg');
 	background-position:center center;
 	padding: 2vh;
-	font-size: 1em;
+	font-size: calc(12px + .3vw);
 	font-weight:bold;
 	margin: auto;
 }
@@ -70,7 +70,6 @@ footer {
 }	
 footer ul {
 list-style: none;
-font-size:0.9em;
 background-color:white;
 }
 footer li {
@@ -78,67 +77,73 @@ display: inline;
 }	
 
 a img{
-border: 1px solid;
+border: 2px solid;
 border-color: #aaa #000 #000 #aaa;
 }
 
 
-/*--------Named items/sections---------*/
 
-#menu {
+
+.menu {
 color: black;
 font-size: calc(15px + .3vw);
 text-align: center;
 font-weight: bold;
 }
-#menu ul {
+.menu ul {
 list-style: none;
 background-color: #1a1a1a;
 }
-#menu li {
+.menu li {
 display: block;
-
 margin-bottom: 5px;
 border: 4px outset;
 border-color: #aaa #000 #000 #aaa;
 background-color: white;
 }
 
-#menu li:hover {
+.menu li:hover {
 border: 4px inset;	
 border-color: #000 #aaa #aaa #000;
 font-style:italic;
 background-image:none;
 background-color: #ffd966;
 } 
-#menu a {
+.menu a {
 display:block;
 color: black;
 text-decoration: none;
 }	
 
 /* current is for indicating page you're on in menu */
-li.current{
+.menu li.current{
+border:4px inset;	
 border-color: #000 #aaa #aaa #000;
 font-style:italic;
 background-image:none;
 background-color: #ffd966;
 }
 
-.current{
+.menu.current{
+border: 4px inset;
 border-color: #000 #aaa #aaa #000;
 font-style:italic;
 background-image:none;
 background-color: #ffd966;
 }
 
-
+/*--------Named items/sections---------*/
 #rmenu {
 display:block;	
 color: white;
-font-size: 1rem;
+font-size: calc(12px + .3vw);
 text-align: center;
 } 
+#rmenu img {
+width: 75px;
+
+object-fit: scale-down;	
+}
 #rmenu a img:hover{
 border: 2px solid;
 border-color: #000 #aaa #aaa #000;
@@ -158,7 +163,7 @@ display:inline-block;
 position: relative;
 text-align: left;
 color: black;
-font-size:1.1em;
+font-size:calc(12px + .5vw);
 font-family: Georgia, serif;
 max-width: 1000px;
 padding:10px 20px;
@@ -197,15 +202,15 @@ padding:10px 20px;
 line-height: .9;
 background-color:black;
 color: white;
-font-size:1.1em;
+font-size:calc(10px + .5vw);
 border-radius: 15px;	
 margin: 5px;
 }
 
 .lable {
 /*display:block;*/
-text-align:center;
-font-size:1.25rem;
+text-align: center;
+font-size: calc(10px + .3vw);
 color: black;
 border-style: solid;
 border-width: 1px;
