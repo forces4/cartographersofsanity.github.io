@@ -25,7 +25,7 @@ body {
 /*flex: flex-grow, flex-shrink and flex-basis */
 .left   { flex: 1;}
 .right  { flex: 1;}
-.middle { flex: 5;}
+.middle { flex: 4;}
 
 .center{
 text-align: center;
@@ -77,6 +77,10 @@ display: inline;
 a img{
 border: 2px solid;
 border-color: #aaa #000 #000 #aaa;
+}
+
+img {
+max-width: 50vw;	
 }
 
 
