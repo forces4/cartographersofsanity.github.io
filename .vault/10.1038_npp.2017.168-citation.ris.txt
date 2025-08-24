@@ -1,0 +1,15 @@
+TY  - JOUR
+AU  - Walker, Brendan M
+PY  - 2017
+DA  - 2017/11/01
+TI  - Jaak Panksepp: Pioneer of Affective Neuroscience
+JO  - Neuropsychopharmacology
+SP  - 2470
+EP  - 2470
+VL  - 42
+IS  - 12
+SN  - 1740-634X
+UR  - https://doi.org/10.1038/npp.2017.168
+DO  - 10.1038/npp.2017.168
+ID  - Walker2017
+ER  - 
