@@ -4,13 +4,15 @@ html {height:100vh; width: 100%;}
 
 body {
     min-height: 100vh;
+	background: #fafafa;
 	background-color: #1a1a1a;
+	color: #222; 
+	margin: 0; 
     text-align:center;
-	font-family:arial, Times, sans-serif;
 	font-size:calc(10px + .5vw);
-	/*font-family: 'Georgia', serif;
-	line-height: 1.6;*/
+	font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif; 
 }
+
 
 /*--------Layout stuff-------------*/
 .row-flex {
@@ -54,7 +56,6 @@ header {
 	margin: auto;
 	text-align: center;
 	font-size: calc(12px + .3vw);
-	font-weight:bold;
 	background-image:url('./media/head.jpg');
 	background-position:center center;
 }
@@ -63,8 +64,8 @@ footer {
 	width: 100%;
     text-align: center;
     font-size: 0.9em;
-    color: #888;
 	background-color:white;
+	color: #777;
 }	
 footer ul {
 list-style: none;
@@ -74,6 +75,10 @@ footer li {
 display: inline;	
 }	
 
+nav.local { margin-top: 1rem; font-size: .95rem; }
+nav.local a { color: #1a73e8; text-decoration: none; }
+nav.local a:hover { text-decoration: underline; } 
+	
 a img{
 border: 2px solid;
 border-color: #aaa #000 #000 #aaa;
