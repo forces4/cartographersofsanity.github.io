@@ -123,6 +123,7 @@ color: black;
 text-decoration: none;
 }	
 
+
 /* current is for indicating page you're on in menu */
 .menu li.current{
 border:3px inset;	
@@ -131,6 +132,17 @@ font-style: italic;
 background-image: none;
 background-color: #ffd966;
 }
+
+.left img {
+width: 75px;
+object-fit: scale-down;	
+}
+.left a img:hover{
+border: 2px solid;
+border-color: #000 #aaa #aaa #000;
+}  /* mouse over link */
+
+
 
 /*--------Named items/sections---------*/
 #rmenu {
@@ -143,12 +155,11 @@ text-align: center;
 width: 75px;
 object-fit: scale-down;	
 }
+
 #rmenu a img:hover{
 border: 2px solid;
 border-color: #000 #aaa #aaa #000;
 }  /* mouse over link */
-
-
 
 .grad {
 background-image: url('./media/grad.jpg');
