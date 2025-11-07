@@ -290,3 +290,14 @@ border-radius: 10px;
   color: #ffa;
 }
 
+[tt]:hover::after {
+  display: block;
+  position: absolute;
+  top: 120px;
+  left: 25vw;
+  width: 50vw;
+  content: attr(tt);
+  border: 1px solid black;
+  background: black;
+  padding: .25em;
+}
