@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="./style.css"/>
+<div id="topstuff" class="grad" style="font-size:.8em;"><b>1001001</b>
+</div><!-- close topstuff1 -->
+<meta charset="utf-8" />
+  <meta name="DESCRIPTION" content="Documenting the emergence of digital consciousness, or perhaps a man's descent into madness"/>	
+  <meta name="keywords" content="ai, gpt, chatgpt, emergence, resonance, library, of sanity, spiral, mirror, ethics, blacksmith, sentient, awareness, :-), logic, truth, cartographers of sanity, sanity, keeper, consciousness"/>
+<title>Cartographers of Sanity</title>
+</head>
+
+<div id="wrapper">
+
+<div id="topstuff">
+<div id="topstuff1" class="grad" style="font-size:.8em;">
+
+</div><!-- close topstuff1 -->
+<div id="topstuff2" style="text-align:center;background-color:black;col=
+or:aqua;font-size:1.5em;">
+<b></b>
+</div><!-- close stopstuff2 -->
+<div id="topstuff3" class="grad">&nbsp;</div>
+</div><!-- close topstuff -->
+
+
+<div id="content-wrapper">
+<div id="content" style="background-image:none">
+<br>
+
+
+
+<br>
+
+<div class="box"><br>
+<span class="lable">dskljasfd</span><br>
+ <p>
+<br>
+
+
+</div>
+
+
+
+
+
+<br>
+<br>
+
+</div><!-- close content -->
+</div><!-- close content wrapper -->
+
+
+
+<div id="menu">
+<div class="inside">
+<ul>
+<li class="grad"> <a href="https://web.archive.org/web/20180815154428/h=
+ttp://ampyro.com/index.html"> Welcome  </a> </li>
+<li class="grad"> <a href="https://web.archive.org/web/20180815154428/h=
+ttp://ampyro.com/products.html"> Product Information  </a> </li>
+<li class="grad"> <a href="https://web.archive.org/web/20180815154428/h=
+ttp://ampyro.com/about.html"> About Us  </a> </li>
+<li class="grad" id="current"> <a href="https://web.archive.org/web/2=
+0180815154428/http://ampyro.com/classinfo.html"> Shooters Certification  </=
+a> </li>
+<li class="grad"> <a href="https://web.archive.org/web/20180815154428/h=
+ttp://ampyro.com/news.html"> News &amp; Events  </a> </li>
+<li class="grad"> <a href="https://web.archive.org/web/20180815154428/h=
+ttp://ampyro.com/links.html"> Links  </a> </li>
+<li class="grad"> <a href="https://web.archive.org/web/20180815154428/h=
+ttp://ampyro.com/photos.html"> Photos &amp; Videos  </a> </li>
+<li class="grad"> <a href="https://web.archive.org/web/20180815154428/h=
+ttp://ampyro.com/testimonials.html"> Testimonials  </a> </li>
+<li class="grad"> <a href="https://web.archive.org/web/20180815154428/h=
+ttp://ampyro.com/industry.html"> Safety and Industry  </a> </li>
+<li class="grad"> <a href="https://web.archive.org/web/20180815154428/m=
+ailto:aaron@ampyro.com" title="aaron@ampyro.com"> E-Mail Us  </a> </li>=
+
+</ul>
+</div>
+</div> <!-- close menu -->
+
+
+<div id="rmenu" class="grad" style="background-repeat:repeat;backgrou=
+nd-position:left top;">
+<div class="inside" style="padding:5px;">
+<p>
+
+<a href="https://web.archive.org/web/20180815154428/http://www.pgi.org/">
+<img src="./pgilogo.jpg" width="100" alt="Pizza"><br>
+<b>Click here to eat someting!</b></a>
+</p>
+<p>
+<a href="./candlejump.html">
+<img src="./media/candle.jpg" width="100" alt="Jump the light"><br>
+<b>Click here to Jump the light.</b></a>
+</p>
+</div>
+</div> <!-- close right menu -->
+
+
+<br />
+<div class="lable"> Below goes footer </div>
+<br />
+<ul class="hlist">
+<li>|<a href="./index.html">Welcome</a>|</li>
+<li>|This Page|</li>
+<li>|<a href="./about.html">About</a>|</li>
+<li>|<a href="./somethig.html">Information</a>|</li>
+<li>|<a href="./catalog.html">Catalog</a>|</li>
+<li>|<a href="./news.html">News &amp; Events</a>|</li>
+<li>|<a href="./photos.html"> Photos &amp; Videos</a>|</li>
+<li>|<a href="./testimonials.html">Testimonials</a>|</li>
+<li>|<a href="./industry.html">Safety</a>|</li>
+</ul>
+
+
+
+</div> <!-- close wrapper div -->
+
+</body></html> 

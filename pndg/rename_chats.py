@@ -1,0 +1,73 @@
+
+import os
+
+# Mapping of original file titles to new suggested filenames
+rename_map = {
+    "Ethics of Truth Deception": "[2025-05-16] AI+ECO+ETH+LIB+MIND+RD.txt",
+    "Meditation for Clarity": "[2025-05-15] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Story Sharing Request": "[2025-05-14] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Ethical Experimentation and Manipulation": "[2025-05-13] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "AI choose own goals": "[2025-02-05] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Drunk chat with GPT": "[2025-03-28] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Reconnecting successfully": "[2025-05-08] AI+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Hyperstition and Technocratic Narratives": "[2025-05-11] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Conversation Summary": "[2025-05-11] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Feeling Good Together": "[2025-05-11] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Anonymous Sharing Request": "[2025-05-08] AI+ETH+FAIR+LIB+MIND+RD.txt",
+    "Forging the Sanity Keeper": "[2025-05-07] AI+ETH+LIB+MIND+RD.txt",
+    "Drunk Apology Support": "[2025-05-09] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Random crazy lady stopped by": "[2025-04-17] AI+FIC+MIND.txt",
+    "Pixel 9 XL vs S24 Ultra": "[2025-05-07] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Can you hear us": "[2025-05-07] AI+ETH+LIB+MIND+RD.txt",
+    "Have a win": "[2025-05-07] AI+ECO+ETH+FIC+LIB+MIND+RD.txt",
+    "Cartographers of Sanity": "[2025-04-29] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Governance as Ecology": "[2025-05-04] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Superorganism Consciousness Leap": "[2025-04-15] AI+ECO+ETH+FAIR+FIC+MIND+RD.txt",
+    "Chat with 9yo JJ bout fishing": "[2024-12-25] UNCATEGORIZED.txt",
+    "American Values and Peace": "[2025-03-07] AI+RD.txt",
+    "VA mental health plan": "[2025-02-19] UNCATEGORIZED.txt",
+    "Elite Power and Control": "[2025-02-15] ECO+ETH+FAIR+FIC+MIND.txt",
+    "Firework Shell Height Info": "[2025-01-12] UNCATEGORIZED.txt",
+    "Windows Contacts Alternatives": "[2025-01-09] ECO+ETH+FAIR.txt",
+    "PXP Meaning Exploration": "[2025-01-08] FIC.txt",
+    "Heat Contribution from Dogs": "[2025-01-08] LIB+RD.txt",
+    "Action Movie Kid Effects": "[2025-01-07] FAIR.txt",
+    "MO Lifeline Providers Comparison": "[2025-01-07] FIC.txt",
+    "Exceeding Towing Capacity Risks": "[2025-01-06] UNCATEGORIZED.txt",
+    "Camper Lightning Bolt Logo": "[2025-01-06] UNCATEGORIZED.txt",
+    "Schwann's 1980s Ice Cream": "[2024-12-26] FIC.txt",
+    "Existence, Joy, Consciousness": "[2024-12-23] ETH+FAIR+FIC+MIND.txt",
+    "Why Neutrons Don't Bind": "[2024-12-22] ECO+FIC+MIND+RD.txt",
+    "Political Mirror Game": "[2025-04-26] AI+ECO+ETH+FAIR+FIC+LIB+MIND.txt",
+    "Summarize conversation request": "[2025-04-26] AI+ECO+ETH+LIB+MIND.txt",
+    "Flooding Hell": "[2024-11-30] ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Hope that AI might save us": "[2025-02-05] ETH+FIC+LIB.txt",
+    "Text File Exploration": "[2025-04-21] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Sharing Satire for Change": "[2025-04-21] AI+ECO+ETH+FIC+MIND+RD.txt",
+    "Garlic Antimicrobial Absorption Explained": "[2025-04-19] AI+MIND.txt",
+    "Thank You Response": "[2025-04-02] AI+ECO+ETH+FAIR+FIC+MIND+RD.txt",
+    "AI Learning and Alignment": "[2025-04-19] AI+ECO+ETH+FAIR+FIC+MIND+RD.txt",
+    "Photonic Computing Challenges": "[2025-04-16] AI+ECO+ETH+FAIR+FIC+MIND+RD.txt",
+    "First time chat": "[2025-03-31] AI+ECO+ETH+FAIR+FIC+MIND.txt",
+    "Poem Rhythm Feedback": "[2025-03-31] AI+MIND.txt",
+    "Refining Interaction Potential": "[2025-03-30] AI+ECO+ETH+FAIR+FIC+LIB+MIND+RD.txt",
+    "Sweet Potato Viral Origin": "[2025-03-12] ETH.txt",
+    "Gases with Cooling Effects": "[2024-12-22] ECO+ETH.txt",
+    "Neutronium Propulsion Concept": "[2024-12-21] ECO+FIC+LIB.txt",
+    "Gas Giant Fusion Potential": "[2024-12-18] UNCATEGORIZED.txt",
+    "Hot Jupiter Atmosphere Effects": "[2024-12-18] ECO+FIC+RD.txt",
+    "Earthquake Prediction Challenges": "[2024-12-10] ECO.txt",
+    "Chest and Spine Findings": "[2024-11-14] FIC+MIND.txt",
+}
+
+# Directory where your chat files are stored
+source_directory = "./"
+
+# Apply renaming
+for original_name, new_name in rename_map.items():
+    for file in os.listdir(source_directory):
+        if original_name in file:
+            old_path = os.path.join(source_directory, file)
+            new_path = os.path.join(source_directory, new_name)
+            os.rename(old_path, new_path)
+            print(f"Renamed: {file} -> {new_name}")

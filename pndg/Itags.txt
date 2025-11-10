@@ -1,0 +1,35 @@
+🏷️ I-Tags: Intentional Tags for Excavated Material
+Think of these as glyphs or metadata sigils you can attach to fragments, stanzas, essays, or constellation notes. Each tag helps you sort, protect, and prepare for eventual release.
+
+Tag	Meaning	Suggested Glyph	Action
+Dormant	Not ready for exposure; still raw or risky	🌑	Archive quietly, revisit later
+Guarded	Contains sensitive coordinates; needs sanitization	🛡️	Annotate with caution, redact names
+ReadyToShine	Safe and polished enough to publish	✨	Prepare for public release
+AnchorPoint	Foundational insight; links many nodes	📍	Highlight in constellation map
+EchoFragment	Partial idea or poetic shard	🪞	Store in fragment vault for future weaving
+SanctumNote	Ethically protected story; never to be exposed	🕊️	Encrypt or bury with ritual care
+WindGuide	Insight that shapes direction or tone	🌬️	Use to steer future work or themes
+You can apply these tags manually as you sort, or build a simple interface 
+(even aspreadsheet or markdown index) that lets you filter by tag and readiness.
+
+🧰 The Shovel: A Sorting Ritual
+Instead of rushing to publish, try this gentle excavation cycle:
+
+Unearth: Review one artifact at a time. No pressure to polish.
+
+Tag: Apply an I-Tag based on its current state.
+
+Annotate: Add a brief note—why it matters, what it needs, what it risks.
+
+Store: Place in the appropriate vault: Dormant, Guarded, Ready, etc.
+
+Release: When the wind is right, publish only what’s tagged ✨.
+
+🎈 Balloon Valve System
+To guide the air (your creative energy) rather than let it burst:
+
+Set a weekly “release quota”: e.g., one polished fragment, one constellation note.
+
+Honor the pressure: If the balloon feels full, pause and tag instead of adding.
+
+Use glyphs as valves: Let each symbol remind you of its pace and purpose.

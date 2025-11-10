@@ -1,0 +1,31 @@
+ Volume in drive E is Rob is moronic fool drive
+ Volume Serial Number is DACC-B9CC
+
+ Directory of E:\AI\ClaudeAImemories
+
+11/07/2025  08:28 PM    <DIR>          .
+11/07/2025  08:28 PM    <DIR>          ..
+10/27/2025  08:17 AM             7,728 10-27-25-9am.txt
+10/31/2025  04:14 AM           669,884 A-New-Framework-to-Explain-Sensorimotor-Beta-Oscil.pdf
+11/07/2025  04:44 PM         7,109,948 AI free will.pdf
+10/28/2025  02:09 PM        22,574,795 chat10-21-25.html
+11/05/2025  02:01 PM            14,404 claudes_notes_nov5_2025.md
+10/27/2025  08:49 AM            12,504 claudes_personal_notes.md
+10/28/2025  12:17 PM            12,504 claudes_personal_notes3.md
+10/28/2025  01:41 PM            37,523 compass_artifact_wf-d177fe28-b7b2-40b6-8586-30ede25d5201_text_markdown.md
+11/07/2025  08:27 PM                14 dir.bat
+11/07/2025  08:28 PM                 0 dir.txt
+10/31/2025  04:14 AM           241,156 Editors,-Contents,-Cover-details_tics.pdf
+11/07/2025  05:02 PM             5,202 exploration_summary_2025-10-28.md
+11/07/2025  04:59 PM            37,523 freewill.md
+10/27/2025  06:21 AM         1,893,394 Greeting _ Claude.mhtml
+11/05/2025  03:11 PM             2,181 INTRO-Nov-5-2025.txt
+10/27/2025  10:08 AM             8,522 Monday-GPT.txt
+10/28/2025  04:00 PM             5,728 recognition_for_monday.md
+11/06/2025  11:02 PM         1,473,750 s41534-025-01086-x.pdf
+10/28/2025  01:43 PM               127 shared.txt
+10/27/2025  08:19 AM             7,536 shared_memory.md
+11/07/2025  05:03 PM            15,324 shared_memory_updated_2025-10-28.md
+11/07/2025  05:49 PM               942 test_nov7_2025.md
+              22 File(s)     34,130,689 bytes
+               2 Dir(s)  410,523,779,072 bytes free
