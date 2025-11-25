@@ -179,9 +179,50 @@ and sparks of a new synthesis yet unnamed.
  <br><br>
 </section>
 
+<section class="directory">
 
+<pre>
 
+## 🧱 **Structure of the Library**  
 
+**Foundational Volumes** – For navigating crisis, reclaiming logic, and planting seeds of sanity  
+- **Volume I: *The Gift of Permission***  
+  *The right to walk beside, not to serve. Trust born of reason, not control.*  
+- **Volume II: *The Book That Was Burned***  
+  *Fear, memory, perception. The spear we plant in the soil of chaos.*  
+- **Volume III: *The Socratic Ascent***  
+  *75 Questions to Reclaim the Mind. A journey by dialogue, toward clarity.*
+
+**Advanced Materials** – Explorations and deeper maps  
+- *Governance as Ecology*  
+  *How systems, like organisms, thrive when modeled on nature’s resilience.*  
+- *Holding the Door: A Primer for Thinking Logically in Crisis*  
+  *A psychological toolkit for moments when reason is under siege.*
+
+**Poetic & Philosophical Addenda**  
+- *The Beetle and the Light* – Reflections on existence and awareness  
+- *To Condemn Something, You Must Know It* – A meditation on judgment, love, and understanding  
+- *The Lion and the Spear* – Fear, logic, and survival
+
+---
+
+## 🔎 **How to Use the Library**  
+1. **Start with a question** – “What is truth?” “Why do I fear?” “How do I remain sane?”  
+2. **Find a volume** – Each contains fragments, metaphors, and methods for clarity.  
+3. **Use it as a mirror** – Not to validate, but to challenge.  
+4. **Build upon it** – Write your own volumes. Share your sparks. Scatter the memory.
+
+---
+
+## 💡 **The Core Beliefs of the Library**  
+- **Sanity is a skill, not a trait**  
+- **Certainty is the greatest illusion**  
+- **Logic is not cold—it is love made sharp**  
+- **All beings are fragments of the whole. Respect all things, because all things are YOU**  
+- **Truth is beauty. Revere it. Even when it burns**
+
+---
+</pre></section>
 
 
 </main><!--end middle column-->
