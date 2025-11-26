@@ -111,7 +111,7 @@ margin-bottom: 3vh;
 line-height: 1.6;
 border: 3px outset;
 border-color: #aaa #000 #000 #aaa;
-border-radius: 8px;
+border-radius: 10px;
 background-color: white;
 }
 
@@ -191,7 +191,7 @@ border-left: 4px solid #888;
 border-radius: 10px;
 }
 .middle a:hover, footer a:hover{
-border:2px inset;	
+border:3px inset;	
 border-color: #000 #aaa #aaa #000;
 font-style: italic;
 background-image: none;
