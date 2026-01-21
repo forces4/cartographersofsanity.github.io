@@ -1,0 +1,74 @@
+/* === Base Reset === */
+body {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    font-family: 'Georgia', serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* === Headings === */
+h1, h2, h3 {
+    text-align: center;
+    color: #ffd966; /* Warm, torchlight gold */
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.3em;
+    margin-top: 2em;
+}
+
+/* === Links === */
+a {
+    color: #99ccff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* === Blockquotes === */
+blockquote {
+    border-left: 4px solid #444;
+    margin: 1.5em 0;
+    padding-left: 1em;
+    font-style: italic;
+    color: #ccc;
+}
+
+/* === Lists === */
+ul {
+    padding-left: 1.2em;
+}
+li {
+    margin: 0.5em 0;
+}
+
+/* === Images === */
+img {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* === Custom Classes for Doctrine === */
+.anchor-title {
+    color: #ffcc66;
+    font-size: 1.6em;
+}
+.doctrine-body {
+    font-size: 1.05em;
+}
+.highlight-quote {
+    color: #ddccff;
+    font-weight: bold;
+}
+
+/* === Footer or nav (if needed later) === */
+footer {
+    text-align: center;
+    margin-top: 4em;
+    font-size: 0.85em;
+    color: #666;

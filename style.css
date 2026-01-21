@@ -33,9 +33,7 @@ padding: 2px;
 .right  { flex: 1;}
 .middle { flex: 4;}
 
-.center{
-text-align: center;
-}
+
 
 
 /* === --------------Headings---------- === */
@@ -64,6 +62,11 @@ header {
 	background-position: center center;
 }
 
+header img {
+height: 60px;
+object-fit: scale-down;	
+}
+
 footer {
 	width: 100%;
     text-align: center;
@@ -83,18 +86,20 @@ nav.local { margin-top: 1rem; font-size: .95rem; }
 nav.local a { color: #1a73e8; text-decoration: none; }
 nav.local a:hover { text-decoration: underline; } 
 	
+img {
+max-width: 50vw;	
+}
+
 a img{
 border: 2px solid;
 border-color: #aaa #000 #000 #aaa;
 }
 
-img {
-max-width: 50vw;	
-}
-
 blockquote {
 font-family: Arial;
+font-size: .95em;
 color: #083CF7;
+font-style: italic;
 }
 
 
@@ -152,7 +157,6 @@ object-fit: scale-down;
 border: 2px solid;
 border-color: #000 #aaa #aaa #000;
 }  /* mouse over link */
-
 
 
 /*--------Named items/sections---------*/
@@ -222,14 +226,32 @@ padding:0px 20px;
 .darkbox{
 display:inline-block;
 text-align: center;
-margin: 5px;
+/*margin: 5px;
 padding:10px 20px;
+border-radius: 15px;
+*/
 line-height: .9;
 background-color:black;
 color: white;
-font-size:calc(10px + .5vw);
-border-radius: 15px;	
+font-size:calc(10px + .5vw);	
 }
+
+.darkboxoutside{
+display:inline-block;
+background-color:black;
+margin: 5px;
+text-align: center;
+padding:10px;
+border-radius: 15px;	
+
+/*
+line-height: .9;
+color: white;
+font-size:calc(10px + .5vw);
+*/
+
+}
+
 
 .label {
 display:inline-block;
@@ -249,7 +271,12 @@ border-style: solid;
 border-radius: 10px;
 }
 
-
+.centered {
+display:inline-block;	
+width: 100%;
+text-align: center;
+margin: auto;
+}
 
 
 /* === Custom Classes for Doctrine === */
@@ -308,10 +335,6 @@ border-radius: 10px;
 
 [tt]:hover::after {
   display: block;
-  position: absolute;
-  top: 120px;
-  left: 25vw;
-  width: 50vw;
   content: attr(tt);
   border: 1px solid black;
   background: black;
