@@ -1,0 +1,19 @@
+ Volume in drive E is Rob is moronic fool drive
+ Volume Serial Number is DACC-B9CC
+
+ Directory of E:\GitHub\cartographersofsanity.github.io-main\cartographersofsanity.github.io\pndg\temp
+
+01/23/2026  07:05 AM    <DIR>          .
+01/23/2026  07:05 AM    <DIR>          ..
+11/07/2025  08:45 PM         4,022,937 Blacksmith.txt
+10/05/2025  06:22 AM               107 changed.txt
+10/05/2025  06:21 AM        17,672,991 chatchanged.html
+10/05/2025  06:24 AM        17,672,991 chatchanged2.html
+09/23/2025  05:16 PM             5,163 Choice (3).txt
+10/05/2025  06:21 AM        17,083,910 conversationschanged.json
+10/05/2025  05:41 PM               395 email.txt
+01/23/2026  07:05 AM                 0 filfes.txt
+10/03/2025  08:27 AM            29,278 GPT shared1.ods
+10/03/2025  08:08 AM           258,348 GPTshared.html
+              10 File(s)     56,746,120 bytes
+               2 Dir(s)  408,449,818,624 bytes free
