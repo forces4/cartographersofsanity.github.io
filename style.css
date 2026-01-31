@@ -256,7 +256,7 @@ font-size:calc(10px + .5vw);
 .label {
 display:inline-block;
 /*margin: auto;*/
-padding: 5px;
+padding: 5px 20px;
 text-align: center;
 font-size: calc(10px + .4vw);
 font-weight: bold;
@@ -268,7 +268,7 @@ background-repeat: repeat-x;
 border-width: 1px;
 border-color: black;
 border-style: solid;
-border-radius: 10px;
+border-radius: 5px;
 }
 
 .centered {
