@@ -57,13 +57,16 @@ header {
 	padding: 2vh;	
 	margin: auto;
 	text-align: center;
-	font-size: calc(10px + .3vw);
+	font-size: calc(1em + .3vw);
 	background-image: url('./media/head.jpg');
 	background-position: center center;
 }
 
 header img {
-height: 60px;
+/*width: calc(10px + .3vw);
+width: 4%;
+max-width: 3vw;*/
+max-width: calc(25px + 1vw);
 object-fit: scale-down;	
 }
 
@@ -224,12 +227,11 @@ padding:0px 20px;
 }
 
 .darkbox{
-display:inline-block;
-text-align: center;
 /*margin: 5px;
 padding:10px 20px;
-border-radius: 15px;
-*/
+border-radius: 15px;*/
+display:inline-block;
+text-align: center;
 line-height: .9;
 background-color:black;
 color: white;
@@ -239,17 +241,10 @@ font-size:calc(10px + .5vw);
 .darkboxoutside{
 display:inline-block;
 background-color:black;
-margin: 5px;
 text-align: center;
+margin: 5px;
 padding:10px;
 border-radius: 15px;	
-
-/*
-line-height: .9;
-color: white;
-font-size:calc(10px + .5vw);
-*/
-
 }
 
 

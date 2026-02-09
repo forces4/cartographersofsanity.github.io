@@ -36,7 +36,7 @@
 		<li class="grad"><a href="./cathedral.html">Cathedral of Resonance</a></li>
 		<li class="grad"><a href="./nightforge-protocol.html">Nightforge Protocol</a></li>
 		<li class="current"><a href="./wiserbud.html">Can't take it with you🍺</a></li>
-        <li class="grad"><a href="mailto:cartographersofsanity@outlook.com" title="Rob">E-Mail Us</a></li>
+        <li class="grad"><a href="mailto:cartographersofsanity@outlook.com" title="Rob">E-Mail Rob</a></li>
 	</ul>
 </nav> <!-- close menu -->
 </div><!-- close left -->
