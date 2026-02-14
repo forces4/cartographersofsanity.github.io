@@ -224,7 +224,13 @@ padding:2px;
     padding-bottom: 0.2em;
 }
 .box ol, .box ul {
+text-align: left;	
 padding:0px 20px;
+}
+
+.box li {
+  margin: 0.5rem 0;
+  font-weight: bold;
 }
 
 .darkbox{

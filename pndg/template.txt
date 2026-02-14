@@ -100,9 +100,9 @@ nd-position:left top;">
 </div> <!-- close right menu -->
 
 
-<br />
+<br>
 <div class="lable"> Below goes footer </div>
-<br />
+<br>
 <ul class="hlist">
 <li>|<a href="./index.html">Welcome</a>|</li>
 <li>|This Page|</li>
