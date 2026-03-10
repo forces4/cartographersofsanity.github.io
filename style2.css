@@ -1,0 +1,376 @@
+html {height:100vh; width: 100%;}
+
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    min-height: 100vh;
+	background: #fafafa;
+	background-color: #1a1a1a;
+	color: #222; 
+	margin: 0; 
+    text-align:center;
+	font-size:calc(10px + .2vw);
+	font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif; 
+}
+
+a {
+padding: 2px;	
+}	
+
+
+/*--------Layout stuff-------------*/
+.row-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 0vh 5vw;  /*row-gap column gap*/
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+/*flex: flex-grow, flex-shrink and flex-basis */
+.left   { flex: 1;}
+.right  { flex: 1;}
+.middle { flex: 4;}
+
+
+
+
+/* === --------------Headings---------- === */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #ffd966; /* Warm, torchlight gold 
+    border-bottom: 1px solid #333;*/
+    padding-bottom: 0.2em;
+}
+ 
+hr{
+	color: black;
+    /*color:#ffd966;  Warm, torchlight gold */
+    border: 2px solid #ffd966;
+	width: 70%;
+	margin: auto;
+}
+
+header {
+	width: 100%;
+	padding: 2vh;	
+	margin: auto;
+	text-align: center;
+	font-size: calc(1em + .3vw);
+	background-image: url('./media/head.jpg');
+	background-position: center center;
+}
+
+header img {
+/*width: calc(10px + .3vw);
+width: 4%;
+max-width: 3vw;*/
+max-width: calc(30px + 1vw);
+object-fit: scale-down;	
+}
+
+footer {
+	width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+	background-color: white;
+	color: #777;
+}	
+footer ul {
+list-style: none;
+background-color:white;
+}
+footer li {
+display: inline;	
+}	
+
+nav.local { margin-top: 1rem; font-size: .95rem; }
+nav.local a { color: #1a73e8; text-decoration: none; }
+nav.local a:hover { text-decoration: underline; } 
+	
+img {
+max-width: 50vw;	
+}
+
+a img{
+border: 2px solid;
+border-color: #aaa #000 #000 #aaa;
+}
+
+blockquote {
+font-family: Arial;
+font-size: .95em;
+color: #083CF7;
+font-style: italic;
+}
+
+
+/* === Custom Classes === */
+
+.menu {
+color: black;
+font-size: calc(15px + .3vw);
+text-align: center;
+font-weight: bold;
+}
+.menu ul {
+list-style: none;
+background-color: #1a1a1a;
+}
+.menu li {
+display: block;
+margin-bottom: 3vh;
+line-height: 1.6;
+border: 3px outset;
+border-color: #aaa #000 #000 #aaa;
+border-radius: 10px;
+background-color: white;
+}
+
+.menu li:hover {
+border: 3px inset;	
+border-color: #000 #aaa #aaa #000;
+font-style: italic;
+background-image: none;
+background-color: #ffd966;
+} 
+.menu a {
+display: block;
+color: black;
+text-decoration: none;
+}	
+
+
+/* current is for indicating page you're on in menu */
+.menu li.current{
+border:3px inset;	
+border-color: #000 #aaa #aaa #000;
+font-style: italic;
+background-image: none;
+background-color: #ffd966;
+border-radius: 10px;
+}
+
+.left img {
+width: 75px;
+object-fit: scale-down;	
+}
+.left a img:hover{
+border: 2px solid;
+border-color: #000 #aaa #aaa #000;
+}  /* mouse over link */
+
+
+/*--------Named items/sections---------*/
+#rmenu {
+display: block;	
+color: white;
+font-size: calc(12px + .3vw);
+text-align: center;
+} 
+#rmenu img {
+width: 75px;
+object-fit: scale-down;	
+}
+
+#rmenu a img:hover{
+border: 2px solid;
+border-color: #000 #aaa #aaa #000;
+}  /* mouse over link */
+
+.grad {
+background-image: url('./media/grad.jpg');
+background-position: left center;
+background-repeat: repeat-x;
+}
+
+.box {
+position: relative;
+max-width: 1000px;
+padding: 10px 20px;
+margin: 2rem auto;
+color: black;
+background-color: white;
+text-align: left;
+font-size: calc(12px + .5vw);
+font-family: Georgia, serif;
+border-width: 2px;
+border-style: solid;
+border-color: black;
+border-left: 4px solid #888;
+border-radius: 10px;
+}
+
+.smallbox {
+position: relative;
+max-width: 40%;
+padding: 10px 20px;
+margin: 2rem auto;
+color: black;
+background-color: white;
+text-align: left;
+font-size: calc(10px + .4vw);
+font-family: Georgia, serif;
+border: 2px solid black;
+border-left: 4px solid #888;
+border-radius: 10px;
+}
+
+
+.middle a:hover, footer a:hover{
+border:3px inset;	
+border-color: #000 #aaa #aaa #000;
+font-style: italic;
+background-image: none;
+background-color: #ffd966;
+border-radius: 10px;
+padding:2px;
+}
+
+.box h1 {
+	text-align: center;
+    color: black; 
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.3em;
+}
+.box h2, .box h3 {
+	text-align: center;
+    color: black; 
+    padding-bottom: 0.2em;
+}
+.box ol, .box ul {
+text-align: left;	
+padding:0px 20px;
+}
+
+.box li {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.darkbox{
+border-radius: 15px;
+display:inline-block;
+text-align: center;
+
+background-color:black;
+color: white;
+font-size:calc(10px + .5vw);	
+}
+
+.darkbox h1 {
+    text-align: center;
+    color: #ffd966; /* Warm, torchlight gold 
+    border-bottom: 1px solid #333;*/
+    padding-bottom: 0.3em;	
+/*text-align: center;
+    color: black; 
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.3em;
+*/
+}
+
+.darkboxoutside{
+display:inline-block;
+background-color:black;
+text-align: center;
+margin: 5px;
+padding:10px;
+border-radius: 15px;	
+}
+
+
+.label {
+display:inline-block;
+/*margin: auto;*/
+padding: 5px 20px;
+text-align: center;
+font-size: calc(10px + .4vw);
+font-weight: bold;
+color: black;
+background-color: white;
+background-image: url('./media/grad.jpg');
+background-position: left center;
+background-repeat: repeat-x;
+border-width: 1px;
+border-color: black;
+border-style: solid;
+border-radius: 5px;
+}
+
+.centered {
+display:inline-block;	
+width: 100%;
+text-align: center;
+margin: auto;
+}
+
+
+/* === Custom Classes for Doctrine === */
+.anchor-title {
+    color: #ffcc66;
+    font-size: 1.6em;
+}
+.doctrine-body {
+    font-size: 1.05em;
+}
+.highlight-quote {
+    color: #ddccff;
+    font-weight: bold;
+}
+
+.directory {
+	background-color: #111;
+	color: #ccc;
+	padding: 2rem;
+	margin: 2rem auto;
+	max-width: 700px;
+	border-left: 4px solid #888;
+	border-radius: 10px;
+	font-family: 'Georgia', serif;
+	box-shadow: 0 0 8px rgba(136, 136, 136, 0.3);
+}
+
+.directory h2 {
+  font-size: 2.2em;
+  color: #aad;
+  margin-bottom: 1rem;
+}
+
+.directory h3 {
+  font-size: 1.6em;
+  margin-bottom: 1rem;
+}
+	
+.directory ul {
+	text-align: left;
+	list-style-type: square;
+	padding-left: 1.5rem;
+	font-size: 1.25em
+}
+.directory li {
+  margin: 0.5rem 0;
+  transition: transform 0.2s ease-in-out;
+}
+.directory li:hover {
+  transform: translateX(5px);
+  color: black;
+}
+.directory a {
+  text-decoration: none;
+  color: #87ceeb;
+  font-weight: bold;
+}
+.directory a:hover {
+    color: black;
+  /*color: #ffa;*/
+}
+
+[tt]:hover::after {
+  display: block;
+  content: attr(tt);
+  border: 1px solid black;
+  background: black;
+  padding: .25em;
+}
