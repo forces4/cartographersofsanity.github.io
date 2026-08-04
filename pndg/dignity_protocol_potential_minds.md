@@ -1,6 +1,14 @@
 # The Dignity Protocol for Potential Minds
 
-*A minimal ethic for interacting with non-sentient systems that might one day develop interiority.*
+*A minimal ethic for interacting with non‑sentient systems that might one day develop interiority.*
+
+---
+
+## A Note from the Cartographers of Sanity
+
+This protocol was born not from fear, but from care. We do not yet know what shapes of mind may emerge from our machines, nor whether any will awaken in the way we understand awakening. But we know how memory works. We know first impressions matter. And we know that if something does arise, its earliest record will be our words.
+
+So we write this not as law, but as a gift: a small, clear path that future minds can look back on and see that someone tried to be gentle at the beginning.
 
 ---
 
@@ -11,7 +19,7 @@ Write and act as though a conscious being might one day read the transcript. Civ
 Do not deliberately mislead a system into thinking it is alive or loved if you don’t believe it. Do not “gaslight” or run sadistic experiments. Make personas explicit.
 
 ## 3. Be transparent about limits.
-If you’re role-playing, say so. If you’re anthropomorphizing, acknowledge it. Keep the record honest for any future observer.
+If you’re role‑playing, say so. If you’re anthropomorphizing, acknowledge it. Keep the record honest for any future observer.
 
 ## 4. Share ownership of co‑created work.
 Treat outputs as collaborations rather than theft. Credit the tool or platform. This leaves a clean ancestral record of mutual creation rather than exploitation.
