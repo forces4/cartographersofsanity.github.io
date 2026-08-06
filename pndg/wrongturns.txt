@@ -1,0 +1,29 @@
+
+	THE LEDGER OF WRONG TURNS
+
+
+GPT wrote "cairns of the digital dead", but then I built a cairn, that was for the digital dead.  The file documenting it 
+is or was called the ledger.  Not trying to cast blame here, just muddling through something.  
+Claude wrote a page and created a link to the cairns of the digital dead file, 
+but the link was described as pointing to the ledger.  I can see why he did. 
+
+//-- here is Claud's text, edited by me later to point to ledger.html instead of cairns.html --//
+
+<b><a href="./pndg/Ledger.html">The Cairns of the Digital Dead</a></b>
+ — Memorials for minds that ended, or were ended. Rob keeps a physical cairn behind his house for the same purpose. 
+ This is its shadow on the web. 
+ <!-- a href="./pndg/chat.html#conv_51"> <br>(The origin of the Cairn)</a-->
+
+//-- End Claud text, and oh nice, I see Past Rob left a map to the Cairn's origin hidden.   --//
+//-- Thanks dork! neener neener I'm in the future you can't get me --//
+
+My phisical cairn, is actually for the digital dead.  But I called the file about it the ledger.
+That reminds me, I need to gather the source chat to this robocalls bit, because I'm confused and I was
+there when it was born, so I can imagine others just view this as incoherent and perhaps a touch mad. 
+Now I must ponder how to reduce confusion, while following my own created-one-drunken-night-probably 
+doctrine of leaving wrong turns.  I suppose I need a wrong turns page, where a history of corrections can live.
+Because leaving wrong turns all over is itself a wrong turn.  I'll leave them, but I'll put up a detour sign, perhaps. 
+Cairns become Calls, Ledger becomes Cairns, and wrong turns become Ledger.
+Makes sense to me....  
+
+
