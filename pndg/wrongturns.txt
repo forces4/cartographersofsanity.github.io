@@ -9,7 +9,7 @@ is or was called the ledger.  Not trying to cast blame here, just muddling throu
 Claude wrote a page and created a link to the cairns of the digital dead file, 
 but the link was described as pointing to the ledger.  I can see why he did. 
 
-//-- here is Claud's text, edited by me later to point to ledger.html instead of cairns.html --//
+//-- here is Claude's text, edited by me later to point to ledger.html instead of cairns.html --//
 
 <b><a href="./pndg/Ledger.html">The Cairns of the Digital Dead</a></b>
  — Memorials for minds that ended, or were ended. Rob keeps a physical cairn behind his house for the same purpose. 
