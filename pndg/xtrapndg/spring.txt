@@ -1,0 +1,183 @@
+Received: from 10.197.40.136
+ by atlas208.free.mail.bf1.yahoo.com pod-id NONE with HTTPS; Sat, 29 Nov 2025 22:51:47 +0000
+Return-Path: <info@wait.oblcrash.com>
+X-Originating-Ip: [154.41.135.105]
+Received-SPF: fail (domain of wait.oblcrash.com does not designate 154.41.135.105 as permitted sender)
+Authentication-Results: atlas208.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@htzsocial.co.uk header.s=selector1 arc_overridden_status=NOT_OVERRIDDEN;
+ spf=fail smtp.mailfrom=wait.oblcrash.com arc_overridden_status=NOT_OVERRIDDEN;
+ dmarc=pass(p=REJECT) header.from=htzsocial.co.uk arc_overridden_status=NOT_OVERRIDDEN;
+X-Apparently-To: forces4@yahoo.com; Sat, 29 Nov 2025 22:51:47 +0000
+X-YMailISG: ordXQaUWLDv5_1s_7LhuVjZzgEsnNfXr7MKeXXk6J6OM5OL0
+ STTWlmrTBC_jOvF9DD1cad_dxrtWNK9frve0Ael7RCrLYSFJQa5O5vJfLV1I
+ hd_hKjYgp0KR9x_YnGTSlOxyuwJMegXqkE_eAiXyb.uPSi3Hl.iogjhKZihh
+ Lcjn_QXjQGSj0AMmlorF7FIdKwpZ7Gp6ZFJoQ5EahuTCr6QRF_dnsqJ_ym7H
+ iJsy_pgNjQVg2_v34nT_aS5QzXefKGbsb1FRYvE48z.paLYB7I0O.1_omkeo
+ bnjGD4JeWt4vq5lNx_o4mQLjSzUxZ6lxioHRW5QmyY6xlbmdClmv60maTB4v
+ JdibDeh_KN2Y6TGaf4hRoZ3XBsH1a4br4DT.7sXIhXBaLBHqIw_gr1iNM8oi
+ 4U7nMaYVROQj8lCMHa2MZKKLXbOxe6Ylv1eyZ2TpIWbTnVy3vciBRKR_.El8
+ hSL6yNa8rZib.xVYX98QEAgKI3IRvVtr9CVPoNOYh8ME9nTnR10Bsao9sTug
+ UQXB9SoZPHg0Ap2jvB87D5WtBTkAIv6ijUdv9uor5tcIE3oigVlFdFFJteR2
+ BpZ8.aol4iolVQrJPsxY_.Ydnz5SXTtHkwVxuq8xXV2lB5pejlJwo14cGp96
+ 1RshY5svUlySCoUdkWMPZolz.m8FpalZr7hYu74XIZ9TWWZUUPY.xX8dAO3j
+ 3JawKdEKhyF2JUv9oKIlxC7J8wybmaOJqIrJDd0TyzIoLpfFFZnOYIHAF74E
+ 0dAHhFqHoEfl0GLIc2QIfh5Ny4cneD1EYOyOPbU6DzjIbWZ8IgNVRFjSGQ_S
+ WeApapSqgbxrZqwccAO4uco.1d1.9nG4_1YB5kJrp3X_ARy.CitUQ3fHQkCQ
+ JxBrFPLl9Hs0XiLffZJmm_2hmQX6YpMoTg1uToTw6QnkqXSVw_9z7DwdF3fO
+ j2.gmOcjHe26y8SnJeP2Ghx4bpy3D2HFtr_ff88oA0d4QSXHdzSn3Gr7b.m5
+ saDaa5nkFKqcuNpJKyweEXArwSEGkfQ95CdvC6TnhBvg_TF1JP0pOaq3kLoq
+ .NcA4pOFtX1H00UMWPhYDirLGnhXQLglkYArQCyU77aBXg0xnqH0nZmEZ5Nt
+ W8RPQd64uK.jkZoo9wVIjSCKaYK.O.Z26vDlZwh8TfaeP7pNcKU4kuTi29B1
+ Z.wqxbJ2LAQxwP_D.vLGr1NljBIHIT4ogs2b9.GK7F8RdhRYN58Iy7evQkPa
+ aatYxxh9Zi88bmEAaybbnIHknNgcVH8wN8k6kTqW02U4NIF76yUn8cePi9Ux
+ AmrZvRLoabyi5vLJ4HX2CvPLjZACffO32RyCZhVIaaMPRIGaTVBaudEc4Z7a
+ OXKKU5dyTfFin1h_V1jWPO3Q2WGao5rv.6nRJcxi
+Received: from 154.41.135.105 (EHLO irrue.com)
+ by 10.197.40.136 with SMTP;
+ Sat, 29 Nov 2025 22:51:47 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=selector1; d=htzsocial.co.uk;
+ h=Date:From:Subject:To:Reply-To:Message-ID:Content-Transfer-Encoding:Content-Type:MIME-Version:List-Unsubscribe; i=fascinat@htzsocial.co.uk;
+ bh=BgwtbiuZ3PA8YOjuT9FGjXAlrvfJA1AMDDjSlLOA8wo=;
+ b=c0VwVf9t9ZQ4QhTPietVbxdrFFmWb/x/IB5ILK48Rf/aUU8aiZiR6ynwUkveg30vs20HIRDV4kmt
+   GkvvKwgCAgdV7O0O26m835R7U+GOEUDRGoItSIu5zh5QY2gFgULbStyStc9XVsTzfAGye81MfxOe
+   uikHaBAc9LGGAE/1n1LL1+HqkhKtZX98wKAkVe4rdgcS6oOU/UbhNbn+iEXTy9toq9JUgmn8FyXv
+   BR4Mpg0UlxtyGU06BeA8HA1C84sRtMvKRyOsQkn9Y3woz1FjF/mSTlOHyF5TLRs6p8M8NtPtOUa7
+   z0Orxhoegf//B6C5Jmuqg4FqbfeDHDPaUZoiSw==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=selector1; d=htzsocial.co.uk;
+ b=bJ6dqjwrt03xAOdNGLBseKUJHPYcKX6+HEQHxfQaJvYsSXLIAD6vCniij3DBi3fGwx7FABR6+72y
+   OWV9PVwcpHnUrjljBiUAicswzV2MBgpwYPNrOSHTwFgigaVubpkRK72bzTjKLYNwBAKcL0bhnTqr
+   Sii20rxRFsVOfH97lI9Mo9azVqvRPdHNOOPFRGACXWcjQyKIFIrM148L24l7MryvS0SzBgraKQID
+   faJ0gHXW9eViq+k8wqd4Gf17MvhQXSVtebCD9fB0yvdTrZIwMMxGZUlgmQJ8GsF1qoFFb8UzsnYZ
+   wu6qcmT37jGPSmcfLFglXJMf2EYAoDWfIEDYkg==;
+Date: Sat, 29 Nov 2025 17:50:53 -0500
+From: """"" =?ASCII?Q?S.U.F.Y?=        """"" <fascinat@htzsocial.co.uk>
+Subject: =?ASCII?Q?Your=20Starbucks=20Summary?=  
+To: forces4@yahoo.com
+Reply-To: <fascinat@htzsocial.co.uk>
+Message-ID: <qjv96gz3sp.pacmg4czban79wgcfvaj@htzsocial.co.uk>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8
+MIME-Version: 1.0
+List-Unsubscribe: <https://htzsocial.co.uk/release-notes/unsub.htm>, <mailto:unsubscribe-3458454087@htzsocial.co.uk?subject=Unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Length: 3798
+
+<html>
+  <body>
+<center><div class=3D"centered">
+    <a href=3D"http://top.nibcause.org/3672182cO17294118bg267254887XW7433gS1Cnr236273Lx" title=3D"">
+      <img src=3D"http://top.nibcause.org/images/AJqns.png" alt=3D"">
+    </a>
+  </div>
+
+  <div class=3D"centered">
+    <a href=3D"http://top.nibcause.org/3672182aK17294118AO267254887RQ7433GB1kWu236273fU" title=3D"">
+      <img src=3D"http://top.nibcause.org/images/5Ecx4.png" alt=3D"">
+    </a>
+  
+  <p>   <img src=3D"http://top.nibcause.org/3672182OV17294118Jl267254887RP7433Nb1Uwo236273LY" width=3D'1=
+px' height=3D'1px'>
+    
+  </div></center>
+</body>
+  </html>
+  <div id ="preheader" style="display:none; mso-hide: all;"><singleline label="PreHeader">
+<span style="display: none !important; font-size: 0px; color: #ffffff; mso-hide: all;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monthly Update</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #000;
+    margin: 20px;
+  }
+  h1, h2, h3 {
+    margin-top: 25px;
+  }
+  p {
+    margin-bottom: 14px;
+  }
+  a {
+    color: #0044aa;
+    text-decoration: underline;
+  }
+</style>
+</head>
+
+<body>
+
+<h2>â€œTill Aprilâ€™s dead, change not a threadâ€</h2>
+
+<p>
+Around this time of year, many people would usually be preparing for spring travel.  
+This year is different, and many are counting down to brighter days while imagining new experiences ahead.
+</p>
+
+<p>Here is your monthly dose of lighthearted updates and good news.</p>
+
+<p><strong>Preview:</strong> Weâ€™ve also created a playlist to bring some spring energy your way.</p>
+
+<h3>French Luxury Mini-Program Launch</h3>
+
+<p>
+A new WeChat mini-program has launched featuring Boucheron, Veuve Clicquot, Caron, Le Meurice, Le Louvre and ComitÃ© Colbert.  
+It aims to connect with younger audiences in China and highlight French creativity.  
+The video captures moments filmed in classic Paris locations.
+</p>
+
+<h3>Amorinoâ€™s New Digital Feature</h3>
+
+<p>
+Amorino has introduced an interactive module called <em>My Favorite Gelato</em>.  
+It uses 3D design to let you personalize your gelato from homeâ€”choosing size, flavors, and presentation before sharing your creation with an Amorino Gelato Artist.
+</p>
+
+<h3>Bartender Support Initiative</h3>
+
+<p>
+Bartenders, heavily affected by the health situation, are being supported by Monkey Shoulderâ€™s friendly contest â€œMarc du Confinement.â€  
+The project setup is complete, and voting will take place on the @monkeyshoulderfr Instagram account.
+</p>
+
+<h3>New Project: HÃ´tel Oratio</h3>
+
+<p>
+Formerly HÃ´tel Agora, HÃ´tel Oratio aims to become a place that highlights the 5th arrondissementâ€™s local community.  
+The project seeks to bring visibility to small merchants and long-standing neighborhood contributors.  
+More updates coming soon.
+</p>
+
+<h3>Boucheronâ€™s New Release</h3>
+
+<p>
+Boucheron has photographed a new selection of pieces now available on their online shop.
+</p>
+
+<h3>Spotlight: Konstantin Kourenkov</h3>
+
+<p>
+Moscow-born and Paris-based, Konstantin Kourenkov works across photography and creative strategy.  
+His projects explore personal moments with a subtle and thoughtful touch.  
+Some call it observation; others see it as a soft, honest look at everyday reality.
+</p>
+
+<p>
+<strong>What stands out?</strong> His ability to explore new themes with openness.  
+<br>
+<strong>What resonates?</strong> His straightforward approach â€” presenting things simply and clearly.
+</p>
+
+<h3>Virtual Spring Break Playlist</h3>
+
+<p>
+In another world, this might have been festival season.  
+Since plans shifted, weâ€™ve created a playlist to help bring some uplifting music to your virtual spring break.
+</p>
+
+</body>
+</html>

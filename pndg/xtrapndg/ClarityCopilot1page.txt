@@ -1,0 +1,117 @@
+THE ROB ONE‑PAGE LOGIC SHEET
+A compact reasoning scaffold for tired days and sharp days alike.
+
+1. The Four Moves
+These are your compass points.
+
+Want the Goal  
+What am I actually trying to understand or decide?
+
+See the Whole  
+What’s the context? What’s upstream? What’s downstream?
+
+Check the Path  
+Does the reasoning chain actually connect?
+
+Judge the Math  
+Does the conclusion follow? Any contradictions?
+
+2. The Five Operators
+Use words or symbols — whichever feels natural.
+
+AND (∧) — both must be true
+
+OR (∨) — at least one is true
+
+NOT (¬) — flips truth
+
+IF…THEN (→) — one thing implies another
+
+IFF (↔) — they rise and fall together
+
+These five cover almost everything.
+
+3. The Three Golden Rules
+These are the “sanity anchors.”
+
+No Contradictions  
+If A and ¬A both appear, something’s wrong.
+
+No Free Assumptions  
+Every claim needs a reason.
+
+No Unnecessary Baggage  
+Prefer explanations with fewer invented parts.
+
+4. The Tired‑Brain Method
+When you’re foggy, use this version.
+
+Name the claim (one sentence)
+
+Ask what would make it false
+
+Look for contradictions
+
+Strip assumptions
+
+Rebuild the simplest version that still fits the evidence
+
+This is slow but extremely reliable.
+
+5. Micro Set‑Theory Kit
+Only the parts you’ll actually use.
+
+is in → “X is a member of Y”
+
+is a kind of → “X is a subset of Y”
+
+A or B → union
+
+A and B → intersection
+
+nothing fits → empty set
+
+Good for categories, definitions, and sorting ideas.
+
+6. Emotional Logic Layer
+Because feelings are part of the data.
+
+Feelings = signals, not conclusions
+
+If feeling contradicts belief → investigate
+
+If belief requires ignoring your own experience → suspect
+
+This keeps the system humane and grounded.
+
+7. The Quark Model of Learning
+Your metaphor was perfect.
+
+You stretch
+
+You snap back
+
+But the center shifts
+
+Repeat
+
+Over months, the ground state moves
+
+This is slow learning — but it’s deep learning.
+
+8. Universal Application Rule
+This is the “apply to anything” part.
+
+Every question reduces to:
+
+What is the claim?
+
+What supports it?
+
+What contradicts it?
+
+What assumptions are hiding?
+
+What’s the simplest version that still fits the evidence?
+
+This works for beliefs, fears, arguments, decisions, memories — everything.
