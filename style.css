@@ -358,3 +358,41 @@ margin: auto;
   background: black;
   padding: .25em;
 }
+/* Readable defaults shared by the original pages and new reading editions. */
+body { font-size: 16px; line-height: 1.65; }
+a { overflow-wrap: anywhere; }
+a:focus-visible { outline: 3px solid #ffd966; outline-offset: 4px; }
+.row-flex { gap: 2rem; padding: 2rem clamp(1rem, 3vw, 3rem); }
+.left, .right, .middle { min-width: 0; }
+.left, .right { flex-basis: 10rem; }
+.middle { flex-basis: 32rem; }
+.box { padding: clamp(1rem, 3vw, 2rem); font-size: 1.05rem; line-height: 1.75; }
+.directory { max-width: 100%; }
+.directory li:hover { transform: none; color: inherit; }
+.directory a:hover { color: #ffd966; }
+.middle a:hover, footer a:hover { border: none; font-style: normal; border-radius: 0; }
+footer { padding: 1rem; color: #555; }
+.reading-page { background: #191b1d; color: #ece8df; text-align: left; }
+.reading-page header { padding: 2rem 1rem; }
+.reading-page header a { color: #f4d487; }
+.reading-main { max-width: 52rem; margin: 2rem auto; padding: clamp(1rem, 4vw, 3rem); background: #faf8f2; color: #252725; border-radius: .5rem; }
+.reading-main h2, .reading-main h3 { text-align: left; color: #30362e; margin: 1.5rem 0 .75rem; }
+.reading-main a { color: #225879; }
+.reading-main p { margin: 1rem 0; }
+.reading-main ul { padding-left: 1.5rem; }
+.source-text { white-space: pre-wrap; overflow-wrap: anywhere; font: 1.125rem/1.85 Georgia, serif; margin-top: 2rem; }
+.edition-note { border-left: 3px solid #9c895a; padding-left: 1rem; font-size: .95rem; }
+.eyebrow { font-size: .9rem; color: #625c4d; }
+.reading-list li { margin: 1.5rem 0; }
+.archive-list li { margin: .5rem 0; }
+@media (max-width: 760px) {
+  .row-flex { display: block; padding: 1rem; }
+  .menu ul { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 2rem; }
+  .menu li { flex: 1 1 9rem; margin: 0; font-size: 1rem; }
+  .menu a { padding: .5rem; }
+  .directory { padding: 1.25rem; }
+  .directory ul { font-size: 1rem; }
+  .darkboxoutside { max-width: 100%; }
+  .darkbox { font-size: 1rem; }
+  .reading-main { margin: 1rem; }
+}

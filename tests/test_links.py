@@ -1,5 +1,5 @@
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 import pytest
 from bs4 import BeautifulSoup
@@ -19,7 +19,7 @@ def is_valid_href(href: str, base_dir: Path) -> bool:
     if parsed.scheme in {'http', 'https'}:
         return bool(parsed.netloc)
 
-    path = parsed.path
+    path = unquote(parsed.path)
     if Path(path).name == '.html':
         # placeholder like ./doctrine/.html
         return True
